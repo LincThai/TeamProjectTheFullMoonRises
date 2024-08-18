@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BookUI : MonoBehaviour
 {
+    // set variables
     [SerializeField] float pageSpeed = 0.5f;
     [SerializeField] List<Transform> pages;
     int index = -1;
