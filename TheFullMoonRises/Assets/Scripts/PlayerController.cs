@@ -7,9 +7,9 @@ public class PlayerController : MonoBehaviour
     // set variables
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 5f;
     public float gravity = -9.8f;
-    public float jumpHeight = 3f;
+    public float jumpHeight = 2f;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
