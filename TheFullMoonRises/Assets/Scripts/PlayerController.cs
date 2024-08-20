@@ -7,9 +7,9 @@ public class PlayerController : MonoBehaviour
     // set variables
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 5f;
     public float gravity = -9.8f;
-    public float jumpHeight = 3f;
+    public float jumpHeight = 2f;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -34,10 +34,10 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        // assigns a value to a vector 3 variable that tells the movemen on the z and x axis
+        // assigns a value to a vector 3 variable that tells the movement on the z and x axis
         Vector3 move = transform.right * x + transform.forward * z;
 
-        // moves the playeer according to the value of move through the Move function in the character controller
+        // moves the player according to the value of move through the Move function in the character controller
         // It also uses the speed variable for the movement speed
         controller.Move(move * speed * Time.deltaTime);
 
