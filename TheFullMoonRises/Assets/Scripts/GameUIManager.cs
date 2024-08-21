@@ -9,14 +9,24 @@ public class GameUIManager : MonoBehaviour
     // reference UI elements
     public GameObject BookUI;
 
+    private void Start()
+    {
+        ResetGameUI();
+    }
+
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         // when the e key is pressed 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             // will activate or deativate the BookUI
             BookUI.SetActive(!BookUI.activeSelf);
         }
+    }
+
+    public void ResetGameUI()
+    {
+        BookUI.SetActive(false);
     }
 }
