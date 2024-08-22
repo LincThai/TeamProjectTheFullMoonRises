@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Selectable : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    // set variables
+    [SerializeField] private bool isInteractable;
+    [SerializeField] private float interactiveDistance = 2;
+
+    private void OnMouseDown()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseOver()
     {
         
     }
