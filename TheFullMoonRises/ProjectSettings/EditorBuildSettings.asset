@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Lincoln/BlockoutTest.unity
+    guid: 2d37a5abf6d47e7418940f4c121b5d42
+  - enabled: 1
+    path: Assets/Scenes/MainScenes/Main_Title.unity
+    guid: 55daae5f8264f444d8d5839eae101dfc
   m_configObjects: {}
