@@ -10,11 +10,20 @@ public class Selectable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        
+        // moves to next level if the this object is interactable and
+        // the distance from the player to this object is less the interactive distance
+        if (isInteractable == true &&
+            Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        {
+
+        }
     }
 
     private void OnMouseOver()
     {
-        
+        if (isInteractable == true && Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        {
+
+        }
     }
 }

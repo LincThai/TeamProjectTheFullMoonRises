@@ -6,14 +6,16 @@ using UnityEngine.SceneManagement;
 public class BedInteraction : MonoBehaviour
 {
     // set Variables
-    [SerializeField] public string nextLevel;
+    [SerializeField] public int sceneIndex;
     [SerializeField] private bool isInteractable;
     [SerializeField] private float interactiveDistance = 2;
 
-    private void Start()
+    public void Awake()
     {
         // starts as false
         isInteractable = false;
+        // get the current scene index amd add 1 for the next scene
+        sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     private void OnMouseDown()
@@ -23,7 +25,8 @@ public class BedInteraction : MonoBehaviour
         if (isInteractable == true && 
             Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
-            SceneManager.LoadScene(nextLevel);
+            // loads the next level
+            SceneManager.LoadScene(sceneIndex);
         }
     }
 }
