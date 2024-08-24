@@ -29,4 +29,13 @@ public class BedInteraction : MonoBehaviour
             SceneManager.LoadScene(sceneIndex);
         }
     }
+
+    private void OnMouseOver()
+    {
+        if (isInteractable == true &&
+          Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        {
+            
+        }
+    }
 }
