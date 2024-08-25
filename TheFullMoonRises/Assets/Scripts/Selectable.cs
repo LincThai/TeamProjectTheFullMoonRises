@@ -7,6 +7,7 @@ public class Selectable : MonoBehaviour
     // set variables
     [SerializeField] private bool isInteractable;
     [SerializeField] private float interactiveDistance = 2;
+    [SerializeField] public string objectName;
 
     private void OnMouseDown()
     {
@@ -21,7 +22,8 @@ public class Selectable : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (isInteractable == true && Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        if (isInteractable == false && 
+            Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
 
         }
