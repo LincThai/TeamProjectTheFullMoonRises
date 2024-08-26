@@ -10,9 +10,6 @@ public class BedInteraction : MonoBehaviour
     [SerializeField] private bool isInteractable = true;
     [SerializeField] private float interactiveDistance = 2;
 
-    // reference to answercheck script
-    //public AnswerCheck answerCheck = GetComponent<AnswerCheck>();
-
     public void Awake()
     {
         // starts as false
