@@ -9,6 +9,10 @@ public class Selectable : MonoBehaviour
     [SerializeField] private float interactiveDistance = 2;
     [SerializeField] public string objectName;
 
+    // reference to answercheck script
+
+
+
     private void OnMouseDown()
     {
         // moves to next level if the this object is interactable and

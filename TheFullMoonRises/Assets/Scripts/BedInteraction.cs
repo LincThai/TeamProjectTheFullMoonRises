@@ -10,6 +10,9 @@ public class BedInteraction : MonoBehaviour
     [SerializeField] private bool isInteractable = true;
     [SerializeField] private float interactiveDistance = 2;
 
+    // reference to answercheck script
+    //public AnswerCheck answerCheck = GetComponent<AnswerCheck>();
+
     public void Awake()
     {
         // starts as false
@@ -25,6 +28,7 @@ public class BedInteraction : MonoBehaviour
         if (isInteractable == true && 
             Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
+
             // loads the next level
             SceneManager.LoadScene(sceneIndex);
         }
