@@ -7,13 +7,13 @@ public class BedInteraction : MonoBehaviour
 {
     // set Variables
     [SerializeField] public int sceneIndex;
-    [SerializeField] private bool isInteractable;
+    [SerializeField] private bool isInteractable = true;
     [SerializeField] private float interactiveDistance = 2;
 
     public void Awake()
     {
         // starts as false
-        isInteractable = false;
+        //isInteractable = false;
         // get the current scene index amd add 1 for the next scene
         sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
     }

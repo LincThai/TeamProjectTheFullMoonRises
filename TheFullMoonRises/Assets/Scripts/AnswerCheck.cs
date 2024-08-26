@@ -36,7 +36,9 @@ public class AnswerCheck : MonoBehaviour
             }
             // calculate the number of incorrect answers
             numOfIncorrect = selectedObjects.Count - answers.Count;
+            return;
         }
+        else { return; }
     }
 
     public void AddItem(GameObject gameObject)

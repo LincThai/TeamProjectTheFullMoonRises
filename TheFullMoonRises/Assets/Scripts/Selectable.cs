@@ -16,7 +16,7 @@ public class Selectable : MonoBehaviour
         if (isInteractable == true &&
             Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
-
+            
         }
     }
 
