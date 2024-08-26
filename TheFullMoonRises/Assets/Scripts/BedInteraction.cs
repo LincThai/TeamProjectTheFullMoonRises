@@ -20,10 +20,10 @@ public class BedInteraction : MonoBehaviour
 
     private void OnMouseDown()
     {
+        Debug.Log("On Mouse Down");
         // moves to next level if the bed is interactable and
         // the distance from the player to bed is less the interactive distance
-        if (isInteractable == true && 
-            Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        if (isInteractable == true && Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
             Debug.Log("is called");
             // loads the next level
@@ -33,8 +33,7 @@ public class BedInteraction : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (isInteractable == true &&
-          Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        if (isInteractable == true && Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
             
         }
