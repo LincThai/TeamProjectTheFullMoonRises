@@ -10,8 +10,15 @@ public class Selectable : MonoBehaviour
     [SerializeField] public string objectName;
 
     // reference to answercheck script
+    [SerializeField] public GameObject bedObject;
+    public AnswerCheck answerCheck;
 
-
+    private void Awake()
+    {
+        // assign the game object
+        bedObject = GameObject.FindWithTag("Main");
+        answerCheck = bedObject.GetComponent<AnswerCheck>();
+    }
 
     private void OnMouseDown()
     {
@@ -20,7 +27,7 @@ public class Selectable : MonoBehaviour
         if (isInteractable == true &&
             Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
-            
+            answerCheck.AddItem(this.gameObject);
         }
     }
 
@@ -29,7 +36,7 @@ public class Selectable : MonoBehaviour
         if (isInteractable == false && 
             Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
-
+            answerCheck.RemoveItem(this.gameObject);
         }
     }
 }
