@@ -8,7 +8,7 @@ public class BedInteraction : MonoBehaviour
     // set Variables
     [SerializeField] public int sceneIndex;
     [SerializeField] private bool isInteractable = true;
-    [SerializeField] private float interactiveDistance = 2;
+    [SerializeField] private float interactiveDistance = 10;
 
     public void Awake()
     {

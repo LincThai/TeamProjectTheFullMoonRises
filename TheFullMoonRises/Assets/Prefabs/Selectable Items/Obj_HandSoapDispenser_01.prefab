@@ -105,6 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInteractable: 0
-  interactiveDistance: 2
+  hasInteracted: 0
+  interactiveDistance: 10
   objectName: SoapDispenser
+  bedObject: {fileID: 0}
+  answerCheck: {fileID: 0}
