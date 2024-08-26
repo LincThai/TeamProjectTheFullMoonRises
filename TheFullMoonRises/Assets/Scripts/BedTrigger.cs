@@ -16,9 +16,11 @@ public class BedTrigger : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        Debug.Log("In Trigge");
         // left mouse click
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log(" is called");
             // move to next scene
             SceneManager.LoadScene(sceneIndex);
         }

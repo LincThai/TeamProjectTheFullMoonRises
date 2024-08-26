@@ -1139,6 +1139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rough Environment Blockout Ver4
       objectReference: {fileID: 0}
+    - target: {fileID: 2355982399387309400, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efc59979a6d83034a98635b6bcce89c1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8391222552659086748, guid: a74e011731340944aabf04a0091ce2c6, type: 3}

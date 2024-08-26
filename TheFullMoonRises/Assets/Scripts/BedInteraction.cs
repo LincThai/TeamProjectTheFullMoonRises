@@ -25,7 +25,7 @@ public class BedInteraction : MonoBehaviour
         if (isInteractable == true && 
             Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
-
+            Debug.Log("is called");
             // loads the next level
             SceneManager.LoadScene(sceneIndex);
         }
