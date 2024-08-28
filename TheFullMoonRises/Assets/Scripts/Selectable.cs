@@ -30,7 +30,7 @@ public class Selectable : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("has clicked");
-        // if the distance from the player to this object is less the interactive distance
+        // if the distance from the player (main camera) to this object is less than the interactive distance
         if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
             // check if you've interacted with this object
@@ -41,7 +41,8 @@ public class Selectable : MonoBehaviour
                 answerCheck.AddItem(this.gameObject);
                 // set to true
                 hasInteracted = true;
-
+                // call outline function and pass the selection colour
+                OutlineObject(outlineColourSel);
             }
             else
             {
@@ -50,16 +51,28 @@ public class Selectable : MonoBehaviour
                 answerCheck.RemoveItem(this.gameObject);
                 // set to false
                 hasInteracted = false;
-
+                // disable outline component
+                this.gameObject.GetComponent<Outline>().enabled = false;
             }
         }
     }
 
     private void OnMouseOver()
     {
+        // if the distance from the player (main camera) to this objects is less than the interactive distance
         if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
-            //
+            // check if this object has been interacted with
+            if (!hasInteracted) 
+            {
+                // call outline function and pass the hover colour
+                OutlineObject(outlineColourHov);
+            }
+            else 
+            {
+                // // call outline function and pass the deselection colour
+                OutlineObject(outlineColourDe);
+            }
         }
     }
 
