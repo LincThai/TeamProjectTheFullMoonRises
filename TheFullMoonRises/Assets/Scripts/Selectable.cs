@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Selectable : MonoBehaviour
@@ -12,6 +13,12 @@ public class Selectable : MonoBehaviour
     // reference to answercheck script
     [SerializeField] public GameObject bedObject;
     public AnswerCheck answerCheck;
+
+    // variables for outline
+    [SerializeField] public Color outlineColourSel = Color.green;
+    [SerializeField] public Color outlineColourHov = Color.blue;
+    [SerializeField] public Color outlineColourDe = Color.red;
+    [SerializeField] public float outlineWidth = 5;
 
     private void Awake()
     {
@@ -34,6 +41,7 @@ public class Selectable : MonoBehaviour
                 answerCheck.AddItem(this.gameObject);
                 // set to true
                 hasInteracted = true;
+
             }
             else
             {
@@ -42,6 +50,7 @@ public class Selectable : MonoBehaviour
                 answerCheck.RemoveItem(this.gameObject);
                 // set to false
                 hasInteracted = false;
+
             }
         }
     }
@@ -51,6 +60,27 @@ public class Selectable : MonoBehaviour
         if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
             //
+        }
+    }
+
+    public void OutlineObject(Color color)
+    {
+        // check if there is an Outline component
+        if (this.gameObject.GetComponent<Outline>() != null)
+        {
+            // enable the outline component
+            this.gameObject.GetComponent<Outline>().enabled = true;
+        }
+        else
+        {
+            // add the outline component to this game object
+            Outline outline = this.gameObject.AddComponent<Outline>();
+            // enable it
+            outline.enabled = true;
+            // assign outline colour
+            outline.OutlineColor = color;
+            // assign outline width
+            outline.OutlineWidth = outlineWidth;
         }
     }
 }
