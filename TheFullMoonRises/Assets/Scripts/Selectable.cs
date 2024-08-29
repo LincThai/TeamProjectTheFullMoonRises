@@ -6,15 +6,18 @@ using UnityEngine;
 public class Selectable : MonoBehaviour
 {
     // set variables
+    [Header("Interactivity")]
     [SerializeField] private bool hasInteracted;
     [SerializeField] private float interactiveDistance = 10;
     [SerializeField] public string objectName;
 
     // reference to answercheck script
+    [Header("Reference")]
     [SerializeField] public GameObject bedObject;
     public AnswerCheck answerCheck;
 
     // variables for outline
+    [Header("Outline")]
     [SerializeField] public Color outlineColourSel = Color.green;
     [SerializeField] public Color outlineColourHov = Color.blue;
     [SerializeField] public Color outlineColourDe = Color.red;
@@ -51,8 +54,6 @@ public class Selectable : MonoBehaviour
                 answerCheck.RemoveItem(this.gameObject);
                 // set to false
                 hasInteracted = false;
-                // disable outline component
-                this.gameObject.GetComponent<Outline>().enabled = false;
             }
         }
     }
