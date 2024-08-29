@@ -6,8 +6,8 @@ public class AnswerCheck : MonoBehaviour
 {
     //set variables
     // lists/arrays for selected objects and answers
-    public List<GameObject> selectedObjects;
-    public List<string> answers;
+    public List<GameObject> selectedObjects = new List<GameObject>();
+    public List<string> answers = new List<string>();
     // int variable counting the number of correct/incorrect
     public int numOfIncorrect;
     public int numOfCorrect;
