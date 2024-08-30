@@ -82,8 +82,10 @@ public class Selectable : MonoBehaviour
         // check if it hasn't been interacted with
         if (!hasInteracted)
         {
+            // check if this object exists
             if(this.gameObject.GetComponent<Outline>() != null)
             {
+                // disable this component
                 this.gameObject.GetComponent<Outline>().enabled = false;
             }
         }

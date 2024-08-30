@@ -38,10 +38,22 @@ public class BedInteraction : MonoBehaviour
 
     private void OnMouseOver()
     {
+        // check if it is interactable and the distance
+        // between this object and the main camera is less than interactive distance
         if (isInteractable == true && Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
             OutlineBed(outlineColour);
         }
+    }
+
+    private void OnMouseExit()
+    {
+        // check if there is an outline script component
+        if (this.gameObject.GetComponent<Outline>() != null)
+        {
+            // disable this component
+            this.gameObject.GetComponent<Outline>().enabled = false;
+        }   
     }
 
     public void OutlineBed(Color color)
