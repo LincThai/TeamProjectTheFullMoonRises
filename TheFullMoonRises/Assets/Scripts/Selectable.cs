@@ -107,7 +107,6 @@ public class Selectable : MonoBehaviour
             outline.enabled = true;
             // assign outline colour
             outline.OutlineColor = color;
-            Debug.Log(outline.OutlineColor);
             // assign outline width
             outline.OutlineWidth = outlineWidth;
         }
