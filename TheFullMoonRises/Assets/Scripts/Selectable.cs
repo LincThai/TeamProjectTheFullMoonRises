@@ -77,6 +77,18 @@ public class Selectable : MonoBehaviour
         }
     }
 
+    private void OnMouseExit()
+    {
+        // check if it hasn't been interacted with
+        if (!hasInteracted)
+        {
+            if(this.gameObject.GetComponent<Outline>() != null)
+            {
+                this.gameObject.GetComponent<Outline>().enabled = false;
+            }
+        }
+    }
+
     public void OutlineObject(Color color)
     {
         // check if there is an Outline component
@@ -93,6 +105,7 @@ public class Selectable : MonoBehaviour
             outline.enabled = true;
             // assign outline colour
             outline.OutlineColor = color;
+            Debug.Log(outline.OutlineColor);
             // assign outline width
             outline.OutlineWidth = outlineWidth;
         }

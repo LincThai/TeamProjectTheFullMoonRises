@@ -5,12 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // set variables
+    [Header("References")]
     public CharacterController controller;
 
+    [Header("Movement")]
     public float speed = 5f;
     public float gravity = -9.8f;
     public float jumpHeight = 2f;
 
+    [Header("Ground")]
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;

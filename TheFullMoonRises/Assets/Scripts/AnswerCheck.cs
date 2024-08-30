@@ -6,9 +6,11 @@ public class AnswerCheck : MonoBehaviour
 {
     //set variables
     // lists/arrays for selected objects and answers
+    [Header("Lists")]
     public List<GameObject> selectedObjects = new List<GameObject>();
     public List<string> answers = new List<string>();
     // int variable counting the number of correct/incorrect
+    [Header("Important Values")]
     public int numOfIncorrect;
     public int numOfCorrect;
 
@@ -53,7 +55,11 @@ public class AnswerCheck : MonoBehaviour
 
     public void RemoveItem(GameObject gameObject)
     {
+        // check if they have the Selectable script
+        if (gameObject.GetComponent<Selectable>() != null)
+        {
         // removes from selected objects list
         selectedObjects.Remove(gameObject);
+        }
     }
 }
