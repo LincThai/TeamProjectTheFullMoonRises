@@ -18,14 +18,13 @@ public class Timer : MonoBehaviour
     [SerializeField] bool isPunished = false;
     [SerializeField] int numOfTtimes = 0;
 
-
-
     private void Awake()
     {
         // set the remaining time to the max time limit
         remainingTime = maxTime;
 
-        // call function to check for punishment time reduction ???
+        // call function to check for punishment time reduction
+        PTimeReduction();
     }
 
     // Update is called once per frame
@@ -43,7 +42,6 @@ public class Timer : MonoBehaviour
 
             // call event here after time runs out
             timerText.color = Color.red;
-            isPunished = true;
         }
 
         // set variables for minutes and seconds
