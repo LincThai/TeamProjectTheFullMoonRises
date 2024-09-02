@@ -9,8 +9,8 @@ public class Timer : MonoBehaviour
     // timer variables
     [Header("Timer")]
     [SerializeField] TextMeshProUGUI timerText;
-    [SerializeField] float remainingTime;
-    [SerializeField] float maxTime = 3;
+    float remainingTime;
+    [SerializeField] float maxTime;
 
     // punishment variables
     [Header("Time Punishment")]
@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
         // set the remaining time to the max time limit
         remainingTime = maxTime;
 
-        // call function to check for punishment time reduction
+        // call function to check for punishment time reduction ???
     }
 
     // Update is called once per frame
@@ -33,18 +33,19 @@ public class Timer : MonoBehaviour
     {
         if(remainingTime > 0 )
         {
+            // reduce time
             remainingTime -= Time.deltaTime;
         }
         else if (remainingTime <= 0)
         {
+            // sets time to 0 so it doesn't go into the negatives
             remainingTime = 0;
 
             // call event here after time runs out
             timerText.color = Color.red;
+            isPunished = true;
         }
 
-        // reduce time
-        remainingTime -= Time.deltaTime;
         // set variables for minutes and seconds
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
