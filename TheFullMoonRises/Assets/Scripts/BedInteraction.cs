@@ -6,21 +6,34 @@ using UnityEngine.SceneManagement;
 public class BedInteraction : MonoBehaviour
 {
     // set Variables
+    // interaction variables
     [Header("Interaction")]
     [SerializeField] public int sceneIndex;
     [SerializeField] private bool isInteractable = true;
     [SerializeField] private float interactiveDistance = 10;
-
+    // outline vvariables
     [Header("Outline")]
     [SerializeField] public Color outlineColour = Color.blue;
     [SerializeField] public float outlineWidth = 5;
 
+    private AnswerCheck answerCheck;
+
     public void Awake()
     {
         // starts as false
-        //isInteractable = false;
+        isInteractable = false;
         // get the current scene index amd add 1 for the next scene
         sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
+        answerCheck = GetComponent<AnswerCheck>();
+    }
+
+    private void Update()
+    {
+        if (answerCheck.selectedObjects.Count > 0)
+        {
+            isInteractable = true;
+        }
     }
 
     private void OnMouseDown()
@@ -31,6 +44,9 @@ public class BedInteraction : MonoBehaviour
         if (isInteractable == true && Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
         {
             Debug.Log("is called");
+            // call check answers function
+            answerCheck.CheckAnswers();
+
             // loads the next level
             SceneManager.LoadScene(sceneIndex);
         }

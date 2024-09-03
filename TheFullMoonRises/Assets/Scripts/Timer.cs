@@ -18,10 +18,17 @@ public class Timer : MonoBehaviour
     [SerializeField] bool isPunished = false;
     [SerializeField] int numOfTtimes = 0;
 
+    // reference to other scripts
+    public AnswerCheck answerCheck;
+
     private void Awake()
     {
         // set the remaining time to the max time limit
         remainingTime = maxTime;
+
+        // collect data from game manager
+        isPunished = GameManager.Instance.willPunish;
+        numOfTtimes = GameManager.Instance.numOfIncorrect;
 
         // call function to check for punishment time reduction
         PTimeReduction();
@@ -42,6 +49,7 @@ public class Timer : MonoBehaviour
 
             // call event here after time runs out
             timerText.color = Color.red;
+            answerCheck.CheckAnswers();
         }
 
         // set variables for minutes and seconds
