@@ -11,11 +11,13 @@ public class BedInteraction : MonoBehaviour
     [SerializeField] public int sceneIndex;
     [SerializeField] private bool isInteractable = true;
     [SerializeField] private float interactiveDistance = 10;
+    
     // outline vvariables
     [Header("Outline")]
     [SerializeField] public Color outlineColour = Color.blue;
     [SerializeField] public float outlineWidth = 5;
 
+    // references
     private AnswerCheck answerCheck;
 
     public void Awake()

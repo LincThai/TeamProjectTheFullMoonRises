@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -18,7 +19,12 @@ public class Timer : MonoBehaviour
     [SerializeField] bool isPunished = false;
     [SerializeField] int numOfTtimes = 0;
 
+    // scene change variables
+    [Header("Scene Change")]
+    [SerializeField] public int sceneIndex;
+
     // reference to other scripts
+    [Header("References")]
     public AnswerCheck answerCheck;
 
     private void Awake()
@@ -50,6 +56,9 @@ public class Timer : MonoBehaviour
             // call event here after time runs out
             timerText.color = Color.red;
             answerCheck.CheckAnswers();
+
+            // get the current scene index amd add 1 for the next scene
+            sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         }
 
         // set variables for minutes and seconds

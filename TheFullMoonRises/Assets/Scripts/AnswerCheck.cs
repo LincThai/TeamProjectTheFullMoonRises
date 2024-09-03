@@ -9,6 +9,7 @@ public class AnswerCheck : MonoBehaviour
     [Header("Lists")]
     public List<GameObject> selectedObjects = new List<GameObject>();
     public List<string> answers = new List<string>();
+
     // int variable counting the number of correct/incorrect
     [Header("Important Values")]
     public int numOfIncorrect;
