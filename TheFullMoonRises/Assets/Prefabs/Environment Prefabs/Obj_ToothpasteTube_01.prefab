@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6812025162949656536
+--- !u!1001 &9190042262898063081
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -62,23 +62,20 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8087eb64c4d9cf44ebe5d3b5835fbb1a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4421345657712452393}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8087eb64c4d9cf44ebe5d3b5835fbb1a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4763604853874367830}
+      addedObject: {fileID: 4253495516626316005}
   m_SourcePrefab: {fileID: 100100000, guid: 8087eb64c4d9cf44ebe5d3b5835fbb1a, type: 3}
---- !u!1 &5929064890134151817 stripped
+--- !u!1 &8307170363327941560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8087eb64c4d9cf44ebe5d3b5835fbb1a, type: 3}
-  m_PrefabInstance: {fileID: 6812025162949656536}
+  m_PrefabInstance: {fileID: 9190042262898063081}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &4421345657712452393
+--- !u!65 &4253495516626316005
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929064890134151817}
+  m_GameObject: {fileID: 8307170363327941560}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -93,20 +90,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.00043101236, y: 0.0008647701, z: 0.002367104}
   m_Center: {x: -0.03299482, y: -0.04042265, z: 0.011947196}
---- !u!114 &4763604853874367830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929064890134151817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasInteracted: 0
-  interactiveDistance: 10
-  objectName: ToothPaste
-  bedObject: {fileID: 0}
-  answerCheck: {fileID: 0}

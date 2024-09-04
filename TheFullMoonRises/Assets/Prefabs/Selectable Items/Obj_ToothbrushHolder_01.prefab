@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4536511553835486630
+--- !u!1001 &6647201000773393927
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -58,23 +58,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2562787830855231976}
+      addedObject: {fileID: 6367505903502284242}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1414687280577038549}
+      addedObject: {fileID: 5382131096470309220}
   m_SourcePrefab: {fileID: 100100000, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
---- !u!1 &3617944011418693879 stripped
+--- !u!1 &5836370200554185558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
-  m_PrefabInstance: {fileID: 4536511553835486630}
+  m_PrefabInstance: {fileID: 6647201000773393927}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &2562787830855231976
-BoxCollider:
+--- !u!64 &6367505903502284242
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3617944011418693879}
+  m_GameObject: {fileID: 5836370200554185558}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -86,16 +86,17 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0012511723, y: 0.0012511758, z: 0.002342245}
-  m_Center: {x: -0.033142164, y: -0.040269576, z: 0.011382328}
---- !u!114 &1414687280577038549
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4452806756880455656, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
+--- !u!114 &5382131096470309220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3617944011418693879}
+  m_GameObject: {fileID: 5836370200554185558}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
@@ -106,3 +107,7 @@ MonoBehaviour:
   objectName: ToothbrushHolder
   bedObject: {fileID: 0}
   answerCheck: {fileID: 0}
+  outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
+  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 5
