@@ -38,6 +38,9 @@ public class Timer : MonoBehaviour
 
         // call function to check for punishment time reduction
         PTimeReduction();
+
+        // get the current scene index amd add 1 for the next scene
+        sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     // Update is called once per frame
@@ -57,14 +60,14 @@ public class Timer : MonoBehaviour
             timerText.color = Color.red;
             answerCheck.CheckAnswers();
 
-            // get the current scene index amd add 1 for the next scene
-            sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+            // loads the next level
+            SceneManager.LoadScene(sceneIndex);
         }
 
         // set variables for minutes and seconds
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
-        // display as text
+        // display as text in a format
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
@@ -75,6 +78,7 @@ public class Timer : MonoBehaviour
         {
             // reduce remaining time by time reduction multiplied by the number of times
             remainingTime -= timeReduction * numOfTtimes;
+            Debug.Log(remainingTime);
         }
     }
 }
