@@ -9,6 +9,7 @@ public class AnswerCheck : MonoBehaviour
     [Header("Lists")]
     public List<GameObject> selectedObjects = new List<GameObject>();
     public List<string> answers = new List<string>();
+
     // int variable counting the number of correct/incorrect
     [Header("Important Values")]
     public int numOfIncorrect;
@@ -34,13 +35,19 @@ public class AnswerCheck : MonoBehaviour
                 {
                     // increase the number of correct answers
                     numOfCorrect++;
+                    // send value to game manager
+                    GameManager.Instance.numOfCorrect = numOfCorrect;
                 }
             }
             // calculate the number of incorrect answers
             numOfIncorrect = selectedObjects.Count - answers.Count;
+            // send value to game manager
+            GameManager.Instance.numOfIncorrect = numOfIncorrect;
+            // set bool to false
+            GameManager.Instance.willPunish = true;
             return;
         }
-        else { return; }
+        else { GameManager.Instance.willPunish = false; return; }
     }
 
     public void AddItem(GameObject gameObject)

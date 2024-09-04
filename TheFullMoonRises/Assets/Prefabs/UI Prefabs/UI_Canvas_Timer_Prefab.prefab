@@ -79,7 +79,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -117,10 +117,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 7595812886079529425}
-  maxTime: 5
+  maxTime: 60
   timeReduction: 1
   isPunished: 0
   numOfTtimes: 0
+  sceneIndex: 0
+  answerCheck: {fileID: 0}
 --- !u!1 &3685880960226707500
 GameObject:
   m_ObjectHideFlags: 0
