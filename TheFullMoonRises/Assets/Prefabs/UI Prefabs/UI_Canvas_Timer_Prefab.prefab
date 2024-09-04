@@ -117,10 +117,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 7595812886079529425}
-  maxTime: 5
+  maxTime: 60
   timeReduction: 1
   isPunished: 0
   numOfTtimes: 0
+  sceneIndex: 0
   answerCheck: {fileID: 0}
 --- !u!1 &3685880960226707500
 GameObject:
