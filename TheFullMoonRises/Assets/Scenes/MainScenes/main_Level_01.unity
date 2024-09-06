@@ -4085,6 +4085,14 @@ PrefabInstance:
       propertyPath: answerCheck
       value: 
       objectReference: {fileID: 1256652859}
+    - target: {fileID: 5829205874619372474, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_Name
+      value: Crosshair
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595812886079529425, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_text
+      value: Timer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5309,6 +5317,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 812415981}
   - {fileID: 1632739592}
+  - {fileID: 418083135}
   - {fileID: 400634970}
   - {fileID: 1463077080}
   - {fileID: 1491302057}
@@ -5316,4 +5325,3 @@ SceneRoots:
   - {fileID: 1364363655}
   - {fileID: 1808432839}
   - {fileID: 61641725}
-  - {fileID: 418083135}

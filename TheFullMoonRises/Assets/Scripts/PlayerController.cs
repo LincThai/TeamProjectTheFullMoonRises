@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            //velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
         // gives a downward velocity to the player on the y axis for gravity
