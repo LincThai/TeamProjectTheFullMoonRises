@@ -32,15 +32,18 @@ public class Timer : MonoBehaviour
         // set the remaining time to the max time limit
         remainingTime = maxTime;
 
+        // get the current scene index amd add 1 for the next scene
+        sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    }
+
+    private void Start()
+    {
         // collect data from game manager
         isPunished = GameManager.Instance.willPunish;
         numOfTtimes = GameManager.Instance.numOfIncorrect;
 
         // call function to check for punishment time reduction
         PTimeReduction();
-
-        // get the current scene index amd add 1 for the next scene
-        sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     // Update is called once per frame
