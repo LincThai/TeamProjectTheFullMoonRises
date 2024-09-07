@@ -4085,14 +4085,6 @@ PrefabInstance:
       propertyPath: answerCheck
       value: 
       objectReference: {fileID: 1256652859}
-    - target: {fileID: 5829205874619372474, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_Name
-      value: Crosshair
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595812886079529425, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_text
-      value: Timer
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
