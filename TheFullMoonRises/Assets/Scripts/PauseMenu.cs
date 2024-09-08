@@ -19,7 +19,7 @@ public class PauseMenu : MonoBehaviour
         if (!GameIsPaused)
         {
             gameTime += Time.deltaTime;
-            // 检查是否达到目标时间
+            // Check whether the target time is reached
             if (gameTime >= targetTime)
             {
                 ShowBillingMenu();
