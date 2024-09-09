@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
     //// Define a public method called PlayGame
     public void PlayGame()
     {
+        // so when you return to this menu from pause the game time is restarted
+        Time.timeScale = 1f;
         // Get the index of the current active scene and load the next scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

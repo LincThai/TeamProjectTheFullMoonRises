@@ -736,7 +736,6 @@ RectTransform:
   - {fileID: 4234695206764636804}
   - {fileID: 5091708335651904280}
   - {fileID: 4943332635331036366}
-  - {fileID: 7409563646651035387}
   m_Father: {fileID: 2542511189158725482}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1015,7 +1014,7 @@ RectTransform:
   - {fileID: 790399468324432414}
   - {fileID: 4080012094394848712}
   - {fileID: 2481704527478871066}
-  m_Father: {fileID: 7367964448759259937}
+  m_Father: {fileID: 2542511189158725482}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1071,6 +1070,7 @@ RectTransform:
   - {fileID: 627682376048545593}
   - {fileID: 8251203163248035553}
   - {fileID: 7367964448759259937}
+  - {fileID: 7409563646651035387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2141,6 +2141,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 3230285523360409620}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &7605496945495970601
 GameObject:
