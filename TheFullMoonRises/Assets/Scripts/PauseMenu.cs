@@ -44,6 +44,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Method of pausing the game
@@ -53,11 +54,12 @@ public class PauseMenu : MonoBehaviour
         //Stop time
         Time.timeScale = 0f;
         GameIsPaused = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene("UI test_level2");
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
