@@ -9,30 +9,20 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
-    public GameObject billingMenuUI;
-
-    private float gameTime = 0f;
-    public float targetTime = 10f;
 
     void Update()
     {
-        if (!GameIsPaused)
-        {
-            gameTime += Time.deltaTime;
-            // Check whether the target time is reached
-            if (gameTime >= targetTime)
-            {
-                ShowBillingMenu();
-            }
-        }
-
+        // when escape is pressed
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            // check if game is paused
             if (GameIsPaused) 
             {
+                // call resume function
                 Resume();
             } else
             {
+                // call pause function
                 Pause();
             }
         }
@@ -41,24 +31,34 @@ public class PauseMenu : MonoBehaviour
     // Resume pausing and hiding UI
     void Resume()
     {
+        // disable pause menu ui
         pauseMenuUI.SetActive(false);
+        // set time scale to 1 for standard time movement
         Time.timeScale = 1f;
+        // change bool to false
         GameIsPaused = false;
+        // lock the cursor to the center
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Method of pausing the game
     void Pause()
     {
+        // activate ther pause menu.
         pauseMenuUI.SetActive(true);
-        //Stop time
+        //Stop time by changing time scale to 0
         Time.timeScale = 0f;
+        // set the bool to true
         GameIsPaused = true;
+        // unlock the cursor
         Cursor.lockState = CursorLockMode.None;
     }
 
     public void LoadMenu()
     {
+        // so when you return to this menu from pause the game time is restarted
+        Time.timeScale = 1f;
+        // Loads the title screen which should always be scene index 0
         SceneManager.LoadScene(0);
     }
 
@@ -66,15 +66,5 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("quitting game..");
         Application.Quit();
-    }
-   
-    void ShowBillingMenu()
-    {
-        // 显示结算菜单UI
-        billingMenuUI.SetActive(true);
-        // 停止游戏时间
-        Time.timeScale = 0f;
-        // 设置游戏状态为暂停
-        GameIsPaused = true;
     }
 }
