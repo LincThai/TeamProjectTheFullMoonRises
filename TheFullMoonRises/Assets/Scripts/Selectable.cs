@@ -12,7 +12,7 @@ public class Selectable : MonoBehaviour
     [SerializeField] public string objectName;
 
     // reference to answercheck script
-    [Header("Reference")]
+    [Header("References")]
     [SerializeField] public GameObject bedObject;
     public AnswerCheck answerCheck;
 

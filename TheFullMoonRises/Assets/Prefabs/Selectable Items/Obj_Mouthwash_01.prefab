@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7370653200281736239
+--- !u!1001 &9049726090820362227
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -62,23 +62,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dbf87854b30b54d449084c767bf82eba, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 806217399934167853}
+      addedObject: {fileID: 1027543120029189299}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dbf87854b30b54d449084c767bf82eba, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2815208851595529826}
+      addedObject: {fileID: 639047247262606001}
   m_SourcePrefab: {fileID: 100100000, guid: dbf87854b30b54d449084c767bf82eba, type: 3}
---- !u!1 &7676592106096208254 stripped
+--- !u!1 &8166851586352718498 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dbf87854b30b54d449084c767bf82eba, type: 3}
-  m_PrefabInstance: {fileID: 7370653200281736239}
+  m_PrefabInstance: {fileID: 9049726090820362227}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &806217399934167853
+--- !u!65 &1027543120029189299
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7676592106096208254}
+  m_GameObject: {fileID: 8166851586352718498}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -93,13 +93,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0012788586, y: 0.0009057334, z: 0.0025811899}
   m_Center: {x: -0.053176858, y: -0.040312387, z: 0.011414995}
---- !u!114 &2815208851595529826
+--- !u!114 &639047247262606001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7676592106096208254}
+  m_GameObject: {fileID: 8166851586352718498}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
@@ -107,6 +107,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasInteracted: 0
   interactiveDistance: 10
-  objectName: MouthWash
+  objectName: Mouthwash
   bedObject: {fileID: 0}
   answerCheck: {fileID: 0}
+  outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
+  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 5

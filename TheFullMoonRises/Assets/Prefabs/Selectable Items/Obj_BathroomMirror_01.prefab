@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5908972391392017984
+--- !u!1001 &7122200995680415045
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -62,23 +62,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 335daeb230e285c48891781d69ad7aef, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6678144321731407850}
+      addedObject: {fileID: 357175053689368725}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 335daeb230e285c48891781d69ad7aef, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7188869672037162294}
+      addedObject: {fileID: 8050305904064997019}
   m_SourcePrefab: {fileID: 100100000, guid: 335daeb230e285c48891781d69ad7aef, type: 3}
---- !u!1 &6827891088189014801 stripped
+--- !u!1 &7932613297507651604 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 335daeb230e285c48891781d69ad7aef, type: 3}
-  m_PrefabInstance: {fileID: 5908972391392017984}
+  m_PrefabInstance: {fileID: 7122200995680415045}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &6678144321731407850
+--- !u!65 &357175053689368725
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6827891088189014801}
+  m_GameObject: {fileID: 7932613297507651604}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -93,13 +93,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.015234891, y: 0.00085969997, z: 0.0123544065}
   m_Center: {x: -0.040260494, y: -0.041754562, z: 0.018161383}
---- !u!114 &7188869672037162294
+--- !u!114 &8050305904064997019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6827891088189014801}
+  m_GameObject: {fileID: 7932613297507651604}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
@@ -110,3 +110,7 @@ MonoBehaviour:
   objectName: Mirror
   bedObject: {fileID: 0}
   answerCheck: {fileID: 0}
+  outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
+  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 5
