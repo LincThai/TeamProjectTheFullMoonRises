@@ -7272,7 +7272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedObjects: []
-  answers: []
+  answers:
+  - 
   numOfIncorrect: 0
   numOfCorrect: 0
 --- !u!114 &1066434090
