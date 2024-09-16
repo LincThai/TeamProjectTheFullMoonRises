@@ -360,7 +360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Full Moon Rise
+  m_text: Full Moon Rises
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7f9fb0eb494d2b4aa17354cfdc6dda8, type: 2}
   m_sharedMaterial: {fileID: -7134978005504357790, guid: b7f9fb0eb494d2b4aa17354cfdc6dda8, type: 2}
