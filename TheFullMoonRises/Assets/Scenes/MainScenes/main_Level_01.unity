@@ -636,6 +636,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedroom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8637532167420466660, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+      propertyPath: isFirstLv
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637532167420466660, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+      propertyPath: resultsMenu
+      value: 
+      objectReference: {fileID: 1808432840}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2097,16 +2105,17 @@ PrefabInstance:
     - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: answerCheck
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7348078898318327998, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 668979396}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+--- !u!1 &1808432840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7348078898318327998, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+  m_PrefabInstance: {fileID: 1808432839}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1868859890
 PrefabInstance:
   m_ObjectHideFlags: 0

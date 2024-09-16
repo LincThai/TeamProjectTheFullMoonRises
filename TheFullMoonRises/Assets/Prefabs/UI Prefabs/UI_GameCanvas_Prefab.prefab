@@ -1442,8 +1442,10 @@ MonoBehaviour:
   timeReduction: 1
   isPunished: 0
   numOfTtimes: 0
+  isFirstLv: 0
   sceneIndex: 0
   answerCheck: {fileID: 0}
+  resultsMenu: {fileID: 7348078898318327998}
 --- !u!1 &3573008911820920873
 GameObject:
   m_ObjectHideFlags: 0

@@ -56,6 +56,7 @@ public class BedInteraction : MonoBehaviour
             // call check answers function
             answerCheck.CheckAnswers();
 
+            // check if first level
             if (isFirstLv)
             {
                 // loads the next level
