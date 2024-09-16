@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,8 +18,14 @@ public class BedInteraction : MonoBehaviour
     [SerializeField] public Color outlineColour = Color.blue;
     [SerializeField] public float outlineWidth = 5;
 
+    // gameloop variable
+    [Header("Results")]
+    [SerializeField] bool isFirstLv = false;
+
     // references
+    [Header("References")]
     private AnswerCheck answerCheck;
+    public GameObject resultsMenu;
 
     public void Awake()
     {
@@ -49,8 +56,16 @@ public class BedInteraction : MonoBehaviour
             // call check answers function
             answerCheck.CheckAnswers();
 
-            // loads the next level
-            SceneManager.LoadScene(sceneIndex);
+            if (isFirstLv)
+            {
+                // loads the next level
+                SceneManager.LoadScene(sceneIndex);
+            }
+            else
+            {
+                // activate results menu
+                resultsMenu.SetActive(true);
+            }
         }
     }
 

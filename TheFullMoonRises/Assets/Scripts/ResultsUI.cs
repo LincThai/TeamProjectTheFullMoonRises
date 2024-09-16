@@ -26,14 +26,14 @@ public class ResultsUI : MonoBehaviour
     {
         // get the current scene index amd add 1 for the next scene
         sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    }
 
+    private void Update()
+    {
         // assign values to the variables to display
         correctAnswers = answerCheck.numOfCorrect;
         incorrectAnswers = answerCheck.numOfIncorrect;
-    }
 
-    private void Start()
-    {
         // write text to text ui elements
         correctText.text = correctAnswers.ToString();
         incorrectText.text = incorrectAnswers.ToString();
