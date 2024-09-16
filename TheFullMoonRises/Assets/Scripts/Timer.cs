@@ -76,7 +76,7 @@ public class Timer : MonoBehaviour
                 // activate the results menu
                 resultsMenu.SetActive(true);
                 // unlock cursor
-                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
 

@@ -67,7 +67,7 @@ public class BedInteraction : MonoBehaviour
                 // activate results menu
                 resultsMenu.SetActive(true);
                 // unlock cursor
-                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
     }

@@ -941,6 +941,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2907455521164021183, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -140
+      objectReference: {fileID: 0}
     - target: {fileID: 3377528946973802294, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: m_Name
       value: UI_GameCanvas_Prefab
@@ -950,9 +954,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1066434089}
     - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: isFirstLv
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: answerCheck
       value: 
       objectReference: {fileID: 1066434089}
+    - target: {fileID: 5796872805124463006, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_text
+      value: 000A
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348078898318327998, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622808525740092725, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_text
+      value: 000B
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713828969245907983, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 140
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
