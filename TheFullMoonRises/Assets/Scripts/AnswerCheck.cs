@@ -35,6 +35,12 @@ public class AnswerCheck : MonoBehaviour
                 {
                     // increase the number of correct answers
                     numOfCorrect++;
+                    // check if the number
+                    if (numOfCorrect >= answers.Count)
+                    {
+                        // set value to max
+                        numOfCorrect = answers.Count;
+                    }
                     // send value to game manager
                     GameManager.Instance.numOfCorrect = numOfCorrect;
                 }
