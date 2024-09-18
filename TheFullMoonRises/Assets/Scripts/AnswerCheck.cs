@@ -26,23 +26,37 @@ public class AnswerCheck : MonoBehaviour
             // for every item in answers list
             for (int i = 0; i < answers.Count; i++)
             {
-                // check if the object name in the selectable code is not the same
-                if (answers[i] != selectedObjects[index].GetComponent<Selectable>().objectName)
+                // if the selected objects list is not equal to null
+                if (selectedObjects[index] != null)
                 {
-                    index++;
-                }
-                else 
-                {
-                    // increase the number of correct answers
-                    numOfCorrect++;
-                    // check if the number
-                    if (numOfCorrect >= answers.Count)
+                    // check if the object name in the selectable code is not the same
+                    if (answers[i] != selectedObjects[index].GetComponent<Selectable>().objectName)
                     {
-                        // set value to max
-                        numOfCorrect = answers.Count;
+                        // increase index
+                        index++;
+                        Debug.Log(index);
+                        // check if index is higher than the count of selectedObjects list 
+                        if (index >= selectedObjects.Count)
+                        {
+                            // set index equal to the selectedObjects count - 1 as lists start from 0
+                            // meaning the size of a list = n-1
+                            index = selectedObjects.Count - 1;
+                            Debug.Log(index);
+                        }
                     }
-                    // send value to game manager
-                    GameManager.Instance.numOfCorrect = numOfCorrect;
+                    else
+                    {
+                        // increase the number of correct answers
+                        numOfCorrect++;
+                        // check if the number
+                        if (numOfCorrect >= answers.Count)
+                        {
+                            // set value to max
+                            numOfCorrect = answers.Count;
+                        }
+                        // send value to game manager
+                        GameManager.Instance.numOfCorrect = numOfCorrect;
+                    }
                 }
             }
             // calculate the number of incorrect answers
