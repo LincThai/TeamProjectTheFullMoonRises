@@ -1336,6 +1336,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 149114901532864944, guid: 5800d5277e00f3f44a84b885cd4f4ab1, type: 3}
+      propertyPath: sensitivity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2175592716135598216, guid: 5800d5277e00f3f44a84b885cd4f4ab1, type: 3}
       propertyPath: m_Name
       value: Obj_Player
