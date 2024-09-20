@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnswerCheck : MonoBehaviour
 {
-    //set variables
+    // set variables
     // lists/arrays for selected objects and answers
     [Header("Lists")]
     public List<GameObject> selectedObjects = new List<GameObject>();
@@ -23,12 +23,13 @@ public class AnswerCheck : MonoBehaviour
         // check if they don't have same count
         if (answers.Count != selectedObjects.Count)
         {
-            // for every item in answers list
-            for (int i = 0; i < answers.Count; i++)
+            // check if the count/size of the list is greater to 0 meaning it iscnot empty
+            if (selectedObjects.Count > 0)
             {
-                // if the selected objects list is not equal to null
-                if (selectedObjects[index] != null)
+                // for every item in answers list
+                for (int i = 0; i < answers.Count; i++)
                 {
+                    Debug.Log("is not null");
                     // check if the object name in the selectable code is not the same
                     if (answers[i] != selectedObjects[index].GetComponent<Selectable>().objectName)
                     {
@@ -65,9 +66,8 @@ public class AnswerCheck : MonoBehaviour
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
             // set bool to false
             GameManager.Instance.willPunish = true;
-            return;
         }
-        else { GameManager.Instance.willPunish = false; return; }
+        else { GameManager.Instance.willPunish = false; }
     }
 
     public void AddItem(GameObject gameObject)
