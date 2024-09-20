@@ -22,6 +22,7 @@ public class Selectable : MonoBehaviour
     [SerializeField] public Color outlineColourHov = Color.blue;
     [SerializeField] public Color outlineColourDe = Color.red;
     [SerializeField] public float outlineWidth = 5;
+    [SerializeField] bool isFirstLv = false;
 
     private void Awake()
     {
@@ -34,7 +35,8 @@ public class Selectable : MonoBehaviour
     {
         Debug.Log("has clicked");
         // if the distance from the player (main camera) to this object is less than the interactive distance
-        if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        // it will also check if this is not the first level
+        if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance && !isFirstLv)
         {
             // check if you've interacted with this object
             if (!hasInteracted)
@@ -61,7 +63,8 @@ public class Selectable : MonoBehaviour
     private void OnMouseOver()
     {
         // if the distance from the player (main camera) to this objects is less than the interactive distance
-        if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance)
+        // it will also check if this is the not first level
+        if (Vector3.Distance(Camera.main.transform.position, this.transform.position) < interactiveDistance && !isFirstLv)
         {
             // check if this object has been interacted with
             if (!hasInteracted) 
