@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
     // Set variabes
     public float mouseSensitivity = 100f;
-    public float sensitivity = 10f;
+    public float sensitivity = 5f;
 
     public Transform playerBody;
 

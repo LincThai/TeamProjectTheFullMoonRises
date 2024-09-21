@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -8,10 +9,8 @@ public class GameManager : MonoBehaviour
     // set Variables
     public static GameManager Instance;
 
-    // reference to answer check
-    public AnswerCheck answerCheck;
-
     // values to store
+    [Header("Data To Store")]
     [SerializeField] public int numOfIncorrect;
     [SerializeField] public int numOfCorrect;
     [SerializeField] public bool willPunish;

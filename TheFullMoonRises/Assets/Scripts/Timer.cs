@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
     // set variables
     // timer variables
     [Header("Timer")]
-    [SerializeField] TextMeshProUGUI timerText;
+    [SerializeField] TMP_Text timerText;
     float remainingTime;
     [SerializeField] float maxTime;
 
@@ -21,11 +21,13 @@ public class Timer : MonoBehaviour
 
     // scene change variables
     [Header("Scene Change")]
-    [SerializeField] public int sceneIndex;
+    [SerializeField] bool isFirstLv = false;
+    [SerializeField] int sceneIndex;
 
     // reference to other scripts
     [Header("References")]
     public AnswerCheck answerCheck;
+    public GameObject resultsMenu;
 
     private void Awake()
     {
@@ -63,8 +65,19 @@ public class Timer : MonoBehaviour
             timerText.color = Color.red;
             answerCheck.CheckAnswers();
 
-            // loads the next level
-            SceneManager.LoadScene(sceneIndex);
+            // check if it is the first level
+            if (isFirstLv)
+            {
+                // loads the next level
+                SceneManager.LoadScene(sceneIndex);
+            }
+            else
+            {
+                // activate the results menu
+                resultsMenu.SetActive(true);
+                // unlock cursor
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
 
         // set variables for minutes and seconds
