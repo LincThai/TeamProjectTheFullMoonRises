@@ -61,15 +61,27 @@ public class AnswerCheck : MonoBehaviour
                     }
                 }
             }
-            // calculate the number of incorrect answers
-            numOfIncorrect = selectedObjects.Count - answers.Count;
-            Debug.Log(numOfIncorrect);
+            if (answers.Count !> selectedObjects.Count)
+            {
+                // calculate the number of incorrect answers
+                numOfIncorrect = selectedObjects.Count - answers.Count;
+                Debug.Log(numOfIncorrect);
+            }
+            else { numOfIncorrect = 0; }
             // send value to game manager
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
-            // set bool to false
+            // set bool to true
             GameManager.Instance.willPunish = true;
         }
-        else { GameManager.Instance.willPunish = false; }
+        else
+        {
+            // set num of correct to be equal to answers list size
+            numOfCorrect = answers.Count;
+            // send value to game manager
+            GameManager.Instance.numOfCorrect = numOfCorrect;
+            // set bool to false
+            GameManager.Instance.willPunish = false; 
+        }
     }
 
     public void AddItem(GameObject gameObject)
