@@ -35,14 +35,14 @@ public class AnswerCheck : MonoBehaviour
                     {
                         // increase index
                         index++;
-                        Debug.Log(index);
+                        //Debug.Log(index);
                         // check if index is higher than the count of selectedObjects list 
                         if (index >= selectedObjects.Count)
                         {
                             // set index equal to the selectedObjects count - 1 as lists start from 0
                             // meaning the size of a list = n-1
                             index = selectedObjects.Count - 1;
-                            Debug.Log(index);
+                            //Debug.Log(index);
                         }
                     }
                     else
@@ -55,19 +55,33 @@ public class AnswerCheck : MonoBehaviour
                             // set value to max
                             numOfCorrect = answers.Count;
                         }
+                        Debug.Log(numOfCorrect);
                         // send value to game manager
                         GameManager.Instance.numOfCorrect = numOfCorrect;
                     }
                 }
             }
-            // calculate the number of incorrect answers
-            numOfIncorrect = selectedObjects.Count - answers.Count;
+            if (answers.Count !> selectedObjects.Count)
+            {
+                // calculate the number of incorrect answers
+                numOfIncorrect = selectedObjects.Count - answers.Count;
+                Debug.Log(numOfIncorrect);
+            }
+            else { numOfIncorrect = 0; }
             // send value to game manager
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
-            // set bool to false
+            // set bool to true
             GameManager.Instance.willPunish = true;
         }
-        else { GameManager.Instance.willPunish = false; }
+        else
+        {
+            // set num of correct to be equal to answers list size
+            numOfCorrect = answers.Count;
+            // send value to game manager
+            GameManager.Instance.numOfCorrect = numOfCorrect;
+            // set bool to false
+            GameManager.Instance.willPunish = false; 
+        }
     }
 
     public void AddItem(GameObject gameObject)
