@@ -388,9 +388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Audio
-
-'
+  m_text: VOLUME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85bf2584ad3fc0c449ce879951bf35cf, type: 2}
   m_sharedMaterial: {fileID: -783389200029973451, guid: 85bf2584ad3fc0c449ce879951bf35cf, type: 2}
@@ -399,8 +397,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190232
-  m_fontColor: {r: 0.59607846, g: 0, b: 0, a: 1}
+    rgba: 4291282887
+  m_fontColor: {r: 0.78039217, g: 0.78039217, b: 0.78039217, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -423,11 +421,11 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -3
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -671,7 +669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 9ca433f33d1a34448a6fffaa30ba3d3c, type: 3}
+  m_Texture: {fileID: 2800000, guid: 896502f0aeae4d5488302dd7b37ea3a0, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1779,8 +1777,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190232
-  m_fontColor: {r: 0.59607846, g: 0, b: 0, a: 1}
+    rgba: 4291282887
+  m_fontColor: {r: 0.78039217, g: 0.78039217, b: 0.78039217, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1807,7 +1805,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -5
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1943,7 +1941,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -5
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2230,7 +2228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000015258789}
+  m_AnchoredPosition: {x: -8, y: 0.000015258789}
   m_SizeDelta: {x: -101.91748, y: 0.0041503906}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804669335
@@ -2253,7 +2251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Quit
+  m_text: 'QuIt
 
 '
   m_isRightToLeft: 0
@@ -2292,7 +2290,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2554,7 +2552,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
