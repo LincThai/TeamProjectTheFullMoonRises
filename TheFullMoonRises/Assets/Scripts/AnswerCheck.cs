@@ -67,7 +67,7 @@ public class AnswerCheck : MonoBehaviour
                 numOfIncorrect = selectedObjects.Count - answers.Count;
                 Debug.Log( "Incorrect " + numOfIncorrect);
             }
-            else { numOfIncorrect = 0; }
+            else { numOfIncorrect = 0; Debug.Log("Incorrect " + numOfIncorrect); }
             // send value to game manager
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
             // set bool to true
@@ -100,8 +100,8 @@ public class AnswerCheck : MonoBehaviour
         // check if they have the Selectable script
         if (gameObject.GetComponent<Selectable>() != null)
         {
-        // removes from selected objects list
-        selectedObjects.Remove(gameObject);
+            // removes from selected objects list
+            selectedObjects.Remove(gameObject);
         }
     }
 }
