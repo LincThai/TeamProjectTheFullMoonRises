@@ -55,7 +55,7 @@ public class AnswerCheck : MonoBehaviour
                             // set value to max
                             numOfCorrect = answers.Count;
                         }
-                        Debug.Log(numOfCorrect);
+                        Debug.Log("Correct " + numOfCorrect);
                         // send value to game manager
                         GameManager.Instance.numOfCorrect = numOfCorrect;
                     }
@@ -65,9 +65,9 @@ public class AnswerCheck : MonoBehaviour
             {
                 // calculate the number of incorrect answers
                 numOfIncorrect = selectedObjects.Count - answers.Count;
-                Debug.Log(numOfIncorrect);
+                Debug.Log( "Incorrect " + numOfIncorrect);
             }
-            else { numOfIncorrect = 0; }
+            else { numOfIncorrect = 0; Debug.Log("Incorrect " + numOfIncorrect); }
             // send value to game manager
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
             // set bool to true
@@ -75,6 +75,7 @@ public class AnswerCheck : MonoBehaviour
         }
         else
         {
+            Debug.Log("is called");
             // set num of correct to be equal to answers list size
             numOfCorrect = answers.Count;
             // send value to game manager
@@ -99,8 +100,8 @@ public class AnswerCheck : MonoBehaviour
         // check if they have the Selectable script
         if (gameObject.GetComponent<Selectable>() != null)
         {
-        // removes from selected objects list
-        selectedObjects.Remove(gameObject);
+            // removes from selected objects list
+            selectedObjects.Remove(gameObject);
         }
     }
 }
