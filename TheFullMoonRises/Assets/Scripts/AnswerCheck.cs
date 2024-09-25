@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class AnswerCheck : MonoBehaviour
 {
@@ -16,73 +17,69 @@ public class AnswerCheck : MonoBehaviour
     public int numOfCorrect;
 
     public void CheckAnswers()
-    {
-        // variable for the selected object list index
-        int index = 0;
-
-        // check if they don't have same count
-        if (answers.Count != selectedObjects.Count)
+    {          
+        if (selectedObjects.Count > 0)
         {
-            // check if the count/size of the list is greater to 0 meaning it iscnot empty
-            if (selectedObjects.Count > 0)
+            numOfCorrect = 0;
+            numOfIncorrect = 0;
+
+            for (int i = 0; i < answers.Count; i++)
             {
-                // for every item in answers list
-                for (int i = 0; i < answers.Count; i++)
-                {
-                    Debug.Log("is not null");
-                    // check if the object name in the selectable code is not the same
-                    if (answers[i] != selectedObjects[index].GetComponent<Selectable>().objectName)
-                    {
-                        // increase index
-                        index++;
-                        //Debug.Log(index);
-                        // check if index is higher than the count of selectedObjects list 
-                        if (index >= selectedObjects.Count)
-                        {
-                            // set index equal to the selectedObjects count - 1 as lists start from 0
-                            // meaning the size of a list = n-1
-                            index = selectedObjects.Count - 1;
-                            //Debug.Log(index);
-                        }
-                    }
-                    else
-                    {
-                        // increase the number of correct answers
-                        numOfCorrect++;
-                        // check if the number
-                        if (numOfCorrect >= answers.Count)
-                        {
-                            // set value to max
-                            numOfCorrect = answers.Count;
-                        }
-                        Debug.Log("Correct " + numOfCorrect);
-                        // send value to game manager
-                        GameManager.Instance.numOfCorrect = numOfCorrect;
-                    }
-                }
+                numOfCorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName == answers[i]);
+                numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]);
+
+                //// check if the object name in the selectable code is not the same
+                //if (answers[i] != selectedObjects[index].GetComponent<Selectable>().objectName)
+                //{
+                //    // increase index
+                //    index++;
+                //    //Debug.Log(index);
+                //    // check if index is higher than the count of selectedObjects list 
+                //    if (index >= selectedObjects.Count)
+                //    {
+                //        // set index equal to the selectedObjects count - 1 as lists start from 0
+                //        // meaning the size of a list = n-1
+                //        index = selectedObjects.Count - 1;
+                //        //Debug.Log(index);
+                //    }
+                //}
+                //else
+                //{
+                //    // increase the number of correct answers
+                //    numOfCorrect++;
+                //    // check if the number
+                //    if (numOfCorrect >= answers.Count)
+                //    {
+                //        // set value to max
+                //        numOfCorrect = answers.Count;
+                //    }
+                //    Debug.Log("Correct " + numOfCorrect);
+                //    // send value to game manager
+                //    GameManager.Instance.numOfCorrect = numOfCorrect;
+                //}
             }
-            if (answers.Count !> selectedObjects.Count)
-            {
-                // calculate the number of incorrect answers
-                numOfIncorrect = selectedObjects.Count - answers.Count;
-                Debug.Log( "Incorrect " + numOfIncorrect);
-            }
-            else { numOfIncorrect = 0; Debug.Log("Incorrect " + numOfIncorrect); }
-            // send value to game manager
+
+            GameManager.Instance.numOfCorrect = numOfCorrect;
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
-            // set bool to true
-            GameManager.Instance.willPunish = true;
+        }
+
+        if (answers.Count <= selectedObjects.Count)
+        {
+            // calculate the number of incorrect answers
+            numOfIncorrect = selectedObjects.Count - answers.Count;
+            Debug.Log( "Incorrect " + numOfIncorrect);
         }
         else
-        {
-            Debug.Log("is called");
-            // set num of correct to be equal to answers list size
-            numOfCorrect = answers.Count;
-            // send value to game manager
-            GameManager.Instance.numOfCorrect = numOfCorrect;
-            // set bool to false
-            GameManager.Instance.willPunish = false; 
+        { 
+            numOfIncorrect = 0; 
+            Debug.Log("Incorrect " + numOfIncorrect); 
         }
+
+        // send value to game manager
+        GameManager.Instance.numOfIncorrect = numOfIncorrect;
+
+        // set bool to true
+        GameManager.Instance.willPunish = true;
     }
 
     public void AddItem(GameObject gameObject)
