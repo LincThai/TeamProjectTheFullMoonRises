@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Sound
+{
+    // set variables
+    // name of sound
+    public string Name;
+
+    // the clip
+    public AudioClip clip;
+
+    // the volume with a slider set for a range from 0 to 1
+    [Range(0f, 1f)]
+    public float volume;
+    
+    // the pitch with a slider set for a range of 0.1 to 3
+    [Range(.1f, 3f)]
+    public float pitch;
+
+    // if the sound will loop
+    public bool loop;
+
+    [HideInInspector]
+    public AudioSource source;
+}
