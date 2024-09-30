@@ -7,7 +7,7 @@ public class Sound
 {
     // set variables
     // name of sound
-    public string Name;
+    public string name;
 
     // the clip
     public AudioClip clip;

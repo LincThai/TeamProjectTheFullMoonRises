@@ -1,7 +1,5 @@
-using UnityEngine.Audio;
-using UnityEngine;
 using System;
-using JetBrains.Annotations;
+using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
@@ -43,7 +41,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        // plays backgound music.
+        // plays background music.
         Play("Background");
     }
 
@@ -51,10 +49,14 @@ public class AudioManager : MonoBehaviour
     {
         // go through the array and find a sound with the same name
         // as the one given and store in the variable
-        Sound s = Array.Find(sounds, sound => sound.Name == name);
+        Sound s = Array.Find(sounds, sound => sound.name == name);
 
         // makes sure that there is a sound
-        if (s != null) { Debug.LogWarning("Sound: " + name + " not found"); return; }
+        if (s == null) 
+        { 
+            Debug.LogWarning("Sound: " + name + " not found");
+            return;
+        }
 
         // play the sound
         s.source.Play();
