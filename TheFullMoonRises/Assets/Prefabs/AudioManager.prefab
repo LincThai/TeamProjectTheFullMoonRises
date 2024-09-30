@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4861704027285063847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8180663882381156612}
+  - component: {fileID: 4771765399751832329}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8180663882381156612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4861704027285063847}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4771765399751832329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4861704027285063847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdab871bb2b4c34286430b12d0b5a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: Backgound
+    clip: {fileID: 8300000, guid: f2d133dd859870a42901eb2c90359e33, type: 3}
+    volume: 0.5
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - Name: InteractiveA
+    clip: {fileID: 8300000, guid: d16f45dd79e8b124c9f6223ca3390c42, type: 3}
+    volume: 0.8
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - Name: InteractiveB
+    clip: {fileID: 8300000, guid: e4be3826123b9c84ebb0d00c660db6f8, type: 3}
+    volume: 0.8
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - Name: InteractiveC
+    clip: {fileID: 8300000, guid: 43fdd7f85c814f748bf3320ad7275ce9, type: 3}
+    volume: 0.8
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - Name: Fridge
+    clip: {fileID: 8300000, guid: 50814f7f185d1154aabb23e0a756a8d8, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - Name: Water
+    clip: {fileID: 8300000, guid: 8b52d24592408c84f9a6635902991cb5, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - Name: TapTurn
+    clip: {fileID: 8300000, guid: 5f2f2caa378cb424c99b7ce5cae32a11, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
