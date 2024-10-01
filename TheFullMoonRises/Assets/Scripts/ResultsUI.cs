@@ -15,6 +15,8 @@ public class ResultsUI : MonoBehaviour
     // Data
     [Header("Data Reference")]
     public AnswerCheck answerCheck;
+
+    [Header("Data")]
     // data to display
     public int correctAnswers;
     public int incorrectAnswers;

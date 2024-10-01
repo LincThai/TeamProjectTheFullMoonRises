@@ -17,7 +17,8 @@ public class AnswerCheck : MonoBehaviour
     public int numOfCorrect;
 
     public void CheckAnswers()
-    {   
+    {
+        Debug.Log("Is called");
         // if selected objects list has objects in it
         if (selectedObjects.Count > 0)
         {
@@ -27,16 +28,19 @@ public class AnswerCheck : MonoBehaviour
 
             for (int i = 0; i < answers.Count; i++)
             {
+                Debug.Log("Looped");
                 // using the count function in system.linq compare the items in the lists and count when they are the same or different
                 // and add them to the variables
                 numOfCorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName == answers[i]);
                 numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]);
             }
 
+            Debug.Log("Correct: " + numOfCorrect + " Incorrect: " + numOfIncorrect);
             // Send values to game Manager
             GameManager.Instance.numOfCorrect = numOfCorrect;
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
 
+        }
             if (numOfIncorrect > 0)
             {
                 // set bool to true
@@ -47,7 +51,6 @@ public class AnswerCheck : MonoBehaviour
                 // set bool to true
                 GameManager.Instance.willPunish = false;
             }
-        }
     }
 
     public void AddItem(GameObject gameObject)
