@@ -45,17 +45,17 @@ public class AnswerCheck : MonoBehaviour
             // Send values to game Manager
             GameManager.Instance.numOfCorrect = numOfCorrect;
             GameManager.Instance.numOfIncorrect = numOfIncorrect;
-        }
 
-        if (numOfIncorrect > 0)
-        {
-            // set bool to true
-            GameManager.Instance.willPunish = true;
-        }
-        else
-        {
-            // set bool to true
-            GameManager.Instance.willPunish = false;
+            if (numOfIncorrect > 0)
+            {
+                // set bool to true
+                GameManager.Instance.willPunish = true;
+            }
+            else
+            {
+                // set bool to true
+                GameManager.Instance.willPunish = false;
+            }
         }
     }
 
