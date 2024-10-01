@@ -47,43 +47,43 @@ MonoBehaviour:
   sounds:
   - name: Background
     clip: {fileID: 8300000, guid: f2d133dd859870a42901eb2c90359e33, type: 3}
-    volume: 0.5
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: InteractA
     clip: {fileID: 8300000, guid: d16f45dd79e8b124c9f6223ca3390c42, type: 3}
-    volume: 0.8
-    pitch: 0
+    volume: 0.75
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: InteractB
     clip: {fileID: 8300000, guid: e4be3826123b9c84ebb0d00c660db6f8, type: 3}
-    volume: 0.8
-    pitch: 0
+    volume: 0.75
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: InteractC
     clip: {fileID: 8300000, guid: 43fdd7f85c814f748bf3320ad7275ce9, type: 3}
-    volume: 0.8
-    pitch: 0
+    volume: 0.75
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Fridge
     clip: {fileID: 8300000, guid: 50814f7f185d1154aabb23e0a756a8d8, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 0.75
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Water
     clip: {fileID: 8300000, guid: 8b52d24592408c84f9a6635902991cb5, type: 3}
-    volume: 0.5
-    pitch: 0.1
+    volume: 0.75
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Tap
     clip: {fileID: 8300000, guid: 5f2f2caa378cb424c99b7ce5cae32a11, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 0.75
+    pitch: 1
     loop: 0
     source: {fileID: 0}
