@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Globalization;
 
 public class AnswerCheck : MonoBehaviour
 {
@@ -33,6 +34,11 @@ public class AnswerCheck : MonoBehaviour
                 // and add them to the variables
                 numOfCorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName == answers[i]);
                 numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]);
+            }
+
+            if (selectedObjects.Count > answers.Count)
+            {
+                numOfIncorrect = selectedObjects.Count - answers.Count;
             }
 
             Debug.Log("Correct: " + numOfCorrect + " Incorrect: " + numOfIncorrect);
