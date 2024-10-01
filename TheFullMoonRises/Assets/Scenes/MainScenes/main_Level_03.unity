@@ -288,6 +288,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 81d393a3166881b4e898ee1d1caab65d, type: 3}
   m_PrefabInstance: {fileID: 34420606}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &71577807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7348078898318327998, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+  m_PrefabInstance: {fileID: 206402744}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &75985981
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_GameCanvas_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: answerCheck
+      value: 
+      objectReference: {fileID: 403199460}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -933,6 +942,17 @@ Transform:
   - {fileID: 592019761}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403199460 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 789278165892330595, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+  m_PrefabInstance: {fileID: 1991112214}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3239e5e42c61df4eaf36ee3f684caab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &412803304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,6 +3588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedroom
       objectReference: {fileID: 0}
+    - target: {fileID: 8637532167420466660, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+      propertyPath: resultsMenu
+      value: 
+      objectReference: {fileID: 71577807}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

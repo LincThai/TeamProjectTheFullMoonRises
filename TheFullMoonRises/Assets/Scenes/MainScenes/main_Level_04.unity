@@ -1121,11 +1121,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_GameCanvas_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: answerCheck
+      value: 
+      objectReference: {fileID: 1855071599}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+--- !u!1 &611620160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7348078898318327998, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+  m_PrefabInstance: {fileID: 611620159}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &623286504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2538,11 +2547,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedroom
       objectReference: {fileID: 0}
+    - target: {fileID: 8637532167420466660, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+      propertyPath: resultsMenu
+      value: 
+      objectReference: {fileID: 611620160}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+--- !u!114 &1855071599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 789278165892330595, guid: 8fac168f9113b2e4cbe949234b7d242b, type: 3}
+  m_PrefabInstance: {fileID: 1855071598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3239e5e42c61df4eaf36ee3f684caab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1879740700
 PrefabInstance:
   m_ObjectHideFlags: 0

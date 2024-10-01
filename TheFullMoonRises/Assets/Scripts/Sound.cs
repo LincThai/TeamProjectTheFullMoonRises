@@ -14,11 +14,11 @@ public class Sound
 
     // the volume with a slider set for a range from 0 to 1
     [Range(0f, 1f)]
-    public float volume;
+    public float volume = 1f;
     
     // the pitch with a slider set for a range of 0.1 to 3
     [Range(.1f, 3f)]
-    public float pitch;
+    public float pitch = 1f;
 
     // if the sound will loop
     public bool loop;
