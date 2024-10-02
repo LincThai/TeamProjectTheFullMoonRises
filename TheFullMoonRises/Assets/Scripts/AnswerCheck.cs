@@ -27,6 +27,9 @@ public class AnswerCheck : MonoBehaviour
             numOfCorrect = 0;
             numOfIncorrect = 0;
 
+            // gaurd statement
+            if (answers.Count <= 0) { Debug.LogWarning("You have No Answers"); return; }
+
             for (int i = 0; i < answers.Count; i++)
             {
                 Debug.Log("Looped");
