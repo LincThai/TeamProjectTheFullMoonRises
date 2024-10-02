@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     // set variables
     [Header("References")]
     public CharacterController controller;
+    public AudioSource source;
 
     [Header("Movement")]
     public float speed = 5f;
@@ -43,6 +44,9 @@ public class PlayerController : MonoBehaviour
         // moves the player according to the value of move through the Move function in the character controller
         // It also uses the speed variable for the movement speed
         controller.Move(move * speed * Time.deltaTime);
+        
+        PlayFootSteps();
+        
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -53,5 +57,19 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    public void PlayFootSteps()
+    {
+        if (!source.isPlaying)
+        { 
+            // play footsteps
+            source.Play();
+        }
+        else 
+        {
+            // stop playing
+            source.Stop();
+        }
     }
 }
