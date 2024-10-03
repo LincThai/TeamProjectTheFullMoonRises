@@ -18,12 +18,16 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // displayes the text
         dialogueBox.SetActive(true);
         dialogueText.text = dialogue;
     }
 
     private void OnTriggerExit(Collider other)
     {
+        // closes the popup
         dialogueBox.SetActive(false);
+        // destroys this object
+        Destroy(gameObject);
     }
 }

@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.04
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -947,6 +947,55 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.10022718, y: 0.0019922345, z: 0.05659578}
   m_Center: {x: 0.069545634, y: -0.02897629, z: 0.0014351455}
+--- !u!1 &545160170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545160172}
+  - component: {fileID: 545160171}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &545160171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545160170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: ccd59de485cf9024d979c67ee7865eb8, type: 2}
+--- !u!4 &545160172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545160170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.443296, y: -3.4886677, z: -6.292164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593458218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,6 +1170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_GameCanvas_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4738069931878141930, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
+      propertyPath: answerCheck
+      value: 
+      objectReference: {fileID: 1855071599}
     - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: answerCheck
       value: 
@@ -3849,3 +3902,4 @@ SceneRoots:
   - {fileID: 1463550187}
   - {fileID: 611620159}
   - {fileID: 1387386647}
+  - {fileID: 545160172}
