@@ -696,6 +696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11bf95951573a9e47b5679444c4b87c4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -744,7 +748,7 @@ Transform:
   m_GameObject: {fileID: 374119404}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.443296, y: -3.4886677, z: -6.292164}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1260,6 +1264,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f12788f7640b6ea4ca0f724919e4b826, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f12788f7640b6ea4ca0f724919e4b826, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f12788f7640b6ea4ca0f724919e4b826, type: 3}
@@ -3290,17 +3298,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 668979396}
     - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: isFirstLv
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: answerCheck
       value: 
       objectReference: {fileID: 668979396}
-    - target: {fileID: 9065861760480661052, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3965,14 +3965,6 @@ PrefabInstance:
     - target: {fileID: 2115545115242293280, guid: ee95537ad94be584795f96d90db0ea67, type: 3}
       propertyPath: m_Name
       value: Lighting
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188981692210912258, guid: ee95537ad94be584795f96d90db0ea67, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.6549997
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188981692210912258, guid: ee95537ad94be584795f96d90db0ea67, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.9270759
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
