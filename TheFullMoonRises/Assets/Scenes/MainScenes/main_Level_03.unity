@@ -4864,6 +4864,7 @@ MonoBehaviour:
   - BrokenHand
   - WolfHair
   - Blood
+  - WaterBottle
   numOfIncorrect: 0
   numOfCorrect: 0
 --- !u!1001 &941533485890535853
@@ -7969,7 +7970,7 @@ PrefabInstance:
     - target: {fileID: 546497307861841937, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7f0e18e0d729afe4283e3a32ecb9a249, type: 2}
+      objectReference: {fileID: 2100000, guid: 3b0a8a2357fbbe24b9474abad0c21323, type: 2}
     - target: {fileID: 1719988834295350142, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.409037
@@ -9551,6 +9552,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1847402555848315005}
     m_Modifications:
+    - target: {fileID: 4780080750342702079, guid: ab76f5151a6983e408c268dc15b3f5c6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780080750342702079, guid: ab76f5151a6983e408c268dc15b3f5c6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780080750342702079, guid: ab76f5151a6983e408c268dc15b3f5c6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4900520308120081845, guid: ab76f5151a6983e408c268dc15b3f5c6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
