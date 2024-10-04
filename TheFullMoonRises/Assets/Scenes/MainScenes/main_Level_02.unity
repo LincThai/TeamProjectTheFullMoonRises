@@ -7223,6 +7223,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 624598793242866037}
     m_Modifications:
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.a
+      value: 0.9843137
+      objectReference: {fileID: 0}
     - target: {fileID: 5793262394847290060, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.99419665
