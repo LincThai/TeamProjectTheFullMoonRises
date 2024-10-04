@@ -1368,6 +1368,134 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.001992235, y: 0.014116497, z: 0.05659578}
   m_Center: {x: 0.024861638, y: 0.024549244, z: 0.0014351455}
+--- !u!1 &709905931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709905935}
+  - component: {fileID: 709905934}
+  - component: {fileID: 709905933}
+  - component: {fileID: 709905937}
+  - component: {fileID: 709905936}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!23 &709905933
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709905931}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1a92781c96baa7d48b05dfe5d03c1ca5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &709905934
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709905931}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &709905935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709905931}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00007678196, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.479, y: 0.213, z: -3.572}
+  m_LocalScale: {x: 0.16808905, y: 0.16808905, z: 0.16808905}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0.009, y: 0, z: 0}
+--- !u!114 &709905936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709905931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasInteracted: 0
+  interactiveDistance: 10
+  objectName: Blood
+  bedObject: {fileID: 0}
+  answerCheck: {fileID: 0}
+  outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
+  outlineColourHov: {r: 1, g: 1, b: 1, a: 1}
+  outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 5
+  isFirstLv: 0
+--- !u!65 &709905937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709905931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 1.4551937e-10, z: 10}
+  m_Center: {x: 0, y: -0.68, z: 0}
 --- !u!1001 &731932101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2112,6 +2240,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1896398766753230807, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b0a8a2357fbbe24b9474abad0c21323, type: 2}
     - target: {fileID: -1891630423312683343, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2460,6 +2592,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3566207899841815972, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 878781884}
+    - targetCorrespondingSourceObject: {fileID: -1244234205430477131, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057403943}
+    - targetCorrespondingSourceObject: {fileID: -1244234205430477131, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057403944}
     - targetCorrespondingSourceObject: {fileID: -6544207043104339812, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 27114651}
@@ -3965,6 +4103,54 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.001992235, y: 0.024676632, z: 0.05659577}
   m_Center: {x: -0.020195343, y: 0.000111999434, z: 0.0014351492}
+--- !u!1 &2057403939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1244234205430477131, guid: a74e011731340944aabf04a0091ce2c6, type: 3}
+  m_PrefabInstance: {fileID: 1255141572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2057403943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057403939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc26c9a6e4112c4dab85c3003eae5ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasInteracted: 0
+  interactiveDistance: 10
+  objectName: Blood
+  bedObject: {fileID: 0}
+  answerCheck: {fileID: 0}
+  outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
+  outlineColourHov: {r: 1, g: 1, b: 1, a: 1}
+  outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 5
+  isFirstLv: 0
+--- !u!65 &2057403944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057403939}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.040521305, y: 0.020000003, z: 0.00013794177}
+  m_Center: {x: -0.03105531, y: 0.03694412, z: 0.00017104481}
 --- !u!65 &2130234389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4677,6 +4863,7 @@ MonoBehaviour:
   answers:
   - BrokenHand
   - WolfHair
+  - Blood
   numOfIncorrect: 0
   numOfCorrect: 0
 --- !u!1001 &941533485890535853
@@ -13728,3 +13915,4 @@ SceneRoots:
   - {fileID: 206402744}
   - {fileID: 231596272}
   - {fileID: 1019554021}
+  - {fileID: 709905935}
