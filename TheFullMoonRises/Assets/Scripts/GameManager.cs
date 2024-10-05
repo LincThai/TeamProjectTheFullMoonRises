@@ -15,6 +15,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int numOfCorrect;
     [SerializeField] public bool willPunish;
 
+    // values for ending
+    [SerializeField] public int maxCorrect;
+    [SerializeField] public int totalCorrect;
+    [SerializeField] public int maxIncorrect;
+    [SerializeField] public int totalIncorrect;
+
     private void Awake()
     {
         // check if there is already an instance of this game object
@@ -29,5 +35,26 @@ public class GameManager : MonoBehaviour
         Instance = this;
         // when loading don't destroy this object
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void AggregateScores()
+    {
+        // Adds values to the totals
+        totalCorrect += numOfCorrect;
+        totalIncorrect += numOfIncorrect;
+
+        Debug.Log("Total T: " + totalCorrect + "Total F: " + totalIncorrect);
+    }
+
+    public void CheckScore()
+    {
+        if (totalCorrect > maxCorrect)
+        {
+            Debug.LogWarning("The total number of correct answers is greater than the max");
+            return;
+        }
+
+        if (totalIncorrect > maxIncorrect) { }
+
     }
 }
