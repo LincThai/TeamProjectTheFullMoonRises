@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int totalCorrect;
     [SerializeField] public int maxIncorrect;
     [SerializeField] public int totalIncorrect;
+    bool hasLost;
 
     private void Awake()
     {
@@ -48,13 +49,20 @@ public class GameManager : MonoBehaviour
 
     public void CheckScore()
     {
+        int min = maxCorrect / 2;
+
+        // checks if nothing is set incorrectly
         if (totalCorrect > maxCorrect)
         {
             Debug.LogWarning("The total number of correct answers is greater than the max");
             return;
         }
 
-        if (totalIncorrect > maxIncorrect) { }
+        // Lose Condition
+        if (totalIncorrect > maxIncorrect) { hasLost = true; }
+
+        // Win Condtion
+        if (min < totalCorrect && totalCorrect <= maxCorrect) { hasLost = false; }
 
     }
 }
