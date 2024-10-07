@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int totalCorrect;
     [SerializeField] public int maxIncorrect;
     [SerializeField] public int totalIncorrect;
-    bool hasLost;
+    [SerializeField] public bool hasLost;
 
     private void Awake()
     {
