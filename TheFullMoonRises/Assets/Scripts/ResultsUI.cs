@@ -43,6 +43,8 @@ public class ResultsUI : MonoBehaviour
 
     public void LoadNextScene()
     {
+        // call function to calculate total aggregate scores
+        GameManager.Instance.AggregateScores();
         // load next scene
         SceneManager.LoadScene(sceneIndex);
     }

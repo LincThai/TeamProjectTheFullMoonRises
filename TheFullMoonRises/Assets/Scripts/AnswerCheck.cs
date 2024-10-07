@@ -27,13 +27,15 @@ public class AnswerCheck : MonoBehaviour
             numOfCorrect = 0;
             numOfIncorrect = 0;
 
+            // guard statement
+            if (answers.Count <= 0) { Debug.LogWarning("You have No Answers"); return; }
+
             for (int i = 0; i < answers.Count; i++)
             {
                 Debug.Log("Looped");
                 // using the count function in system.linq compare the items in the lists and count when they are the same or different
                 // and add them to the variables
                 numOfCorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName == answers[i]);
-                numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]);
             }
 
             if (selectedObjects.Count > answers.Count)

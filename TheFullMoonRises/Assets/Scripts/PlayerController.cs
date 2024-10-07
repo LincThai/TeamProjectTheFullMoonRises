@@ -44,8 +44,11 @@ public class PlayerController : MonoBehaviour
         // moves the player according to the value of move through the Move function in the character controller
         // It also uses the speed variable for the movement speed
         controller.Move(move * speed * Time.deltaTime);
-        
-        PlayFootSteps();
+
+        if (!playingFootsteps && move != Vector3.zero)
+        {
+            StartCoroutine(PlayFootSteps());
+        }
         
 
         if (Input.GetButtonDown("Jump") && isGrounded)
@@ -59,17 +62,15 @@ public class PlayerController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
-    public void PlayFootSteps()
+    private bool playingFootsteps;
+    public IEnumerator PlayFootSteps()
     {
-        if (!source.isPlaying)
-        { 
-            // play footsteps
-            source.Play();
-        }
-        else 
+        playingFootsteps = true;
+        while (controller.velocity.magnitude > 1f)
         {
-            // stop playing
-            source.Stop();
+            source.Play();
+            yield return new WaitForSeconds(0.5f);
         }
+        playingFootsteps = false;
     }
 }
