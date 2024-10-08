@@ -161,7 +161,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64744f4baa444e34f91cbbb6d9396d04, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5111193830046647548, guid: c52c8cd0ec2fb9a4d8f1486abbc822c0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -171,6 +172,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1005578562264520353, guid: c52c8cd0ec2fb9a4d8f1486abbc822c0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 789278165892330595}
+    - targetCorrespondingSourceObject: {fileID: 1005578562264520353, guid: c52c8cd0ec2fb9a4d8f1486abbc822c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891765115661494310}
   m_SourcePrefab: {fileID: 100100000, guid: c52c8cd0ec2fb9a4d8f1486abbc822c0, type: 3}
 --- !u!1 &3989803535985401712 stripped
 GameObject:
@@ -194,6 +198,8 @@ MonoBehaviour:
   interactiveDistance: 10
   outlineColour: {r: 0, g: 0, b: 1, a: 1}
   outlineWidth: 5
+  isFirstLv: 0
+  resultsMenu: {fileID: 0}
 --- !u!114 &789278165892330595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +216,27 @@ MonoBehaviour:
   answers: []
   numOfIncorrect: 0
   numOfCorrect: 0
+--- !u!65 &1891765115661494310
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989803535985401712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7466235, y: 2.850779, z: 1.5060751}
+  m_Center: {x: 0, y: -0, z: 0.7530376}
 --- !u!4 &4329491419085505994 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486205087613848603, guid: c52c8cd0ec2fb9a4d8f1486abbc822c0, type: 3}

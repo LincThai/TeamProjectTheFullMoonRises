@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Globalization;
 
 public class AnswerCheck : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class AnswerCheck : MonoBehaviour
     public int numOfCorrect;
 
     public void CheckAnswers()
-    {   
+    {
+        Debug.Log("Is called");
         // if selected objects list has objects in it
         if (selectedObjects.Count > 0)
         {
@@ -25,14 +27,23 @@ public class AnswerCheck : MonoBehaviour
             numOfCorrect = 0;
             numOfIncorrect = 0;
 
+            // guard statement
+            if (answers.Count <= 0) { Debug.LogWarning("You have No Answers"); return; }
+
             for (int i = 0; i < answers.Count; i++)
             {
+                Debug.Log("Looped");
                 // using the count function in system.linq compare the items in the lists and count when they are the same or different
                 // and add them to the variables
                 numOfCorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName == answers[i]);
-                numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]);
             }
 
+            if (selectedObjects.Count > answers.Count)
+            {
+                numOfIncorrect = selectedObjects.Count - answers.Count;
+            }
+
+            Debug.Log("Correct: " + numOfCorrect + " Incorrect: " + numOfIncorrect);
             // Send values to game Manager
             GameManager.Instance.numOfCorrect = numOfCorrect;
             GameManager.Instance.numOfIncorrect = numOfIncorrect;

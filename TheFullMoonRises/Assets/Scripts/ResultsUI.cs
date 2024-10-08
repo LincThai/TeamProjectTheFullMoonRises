@@ -15,6 +15,8 @@ public class ResultsUI : MonoBehaviour
     // Data
     [Header("Data Reference")]
     public AnswerCheck answerCheck;
+
+    [Header("Data")]
     // data to display
     public int correctAnswers;
     public int incorrectAnswers;
@@ -41,6 +43,8 @@ public class ResultsUI : MonoBehaviour
 
     public void LoadNextScene()
     {
+        // call function to calculate total aggregate scores
+        GameManager.Instance.AggregateScores();
         // load next scene
         SceneManager.LoadScene(sceneIndex);
     }
