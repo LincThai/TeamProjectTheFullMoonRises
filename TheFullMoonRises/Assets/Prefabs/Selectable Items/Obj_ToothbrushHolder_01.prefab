@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 091e1ca0a2450a248aa9e83b9bc491bd, type: 2}
     - target: {fileID: 919132149155446097, guid: 8a9bdd0dbed6da94c97026b95e98e74f, type: 3}
       propertyPath: m_Name
       value: Obj_ToothbrushHolder_01
@@ -108,6 +112,7 @@ MonoBehaviour:
   bedObject: {fileID: 0}
   answerCheck: {fileID: 0}
   outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
-  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourHov: {r: 0.89411765, g: 0.85490197, b: 0.827451, a: 1}
   outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 5
+  isFirstLv: 0

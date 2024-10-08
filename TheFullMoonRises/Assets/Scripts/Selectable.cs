@@ -19,7 +19,7 @@ public class Selectable : MonoBehaviour
     // variables for outline
     [Header("Outline")]
     [SerializeField] public Color outlineColourSel = Color.green;
-    [SerializeField] public Color outlineColourHov = Color.blue;
+    [SerializeField] public Color outlineColourHov = Color.white;
     [SerializeField] public Color outlineColourDe = Color.red;
     [SerializeField] public float outlineWidth = 5;
     [SerializeField] bool isFirstLv = false;

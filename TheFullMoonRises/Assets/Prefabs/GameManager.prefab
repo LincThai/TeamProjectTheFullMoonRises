@@ -47,8 +47,8 @@ MonoBehaviour:
   numOfIncorrect: 0
   numOfCorrect: 0
   willPunish: 0
-  maxCorrect: 5
+  maxCorrect: 12
   totalCorrect: 0
-  maxIncorrect: 10
+  maxIncorrect: 5
   totalIncorrect: 0
   hasLost: 0
