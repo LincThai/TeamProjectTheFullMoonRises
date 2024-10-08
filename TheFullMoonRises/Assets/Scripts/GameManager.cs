@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int numOfCorrect;
     [SerializeField] public bool willPunish;
 
+    [Header("Ending Data")]
     // values for ending
     [SerializeField] public int maxCorrect;
     [SerializeField] public int totalCorrect;
