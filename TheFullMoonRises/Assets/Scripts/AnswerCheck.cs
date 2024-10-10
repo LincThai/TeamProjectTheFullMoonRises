@@ -36,6 +36,7 @@ public class AnswerCheck : MonoBehaviour
                 // using the count function in system.linq compare the items in the lists and count when they are the same or different
                 // and add them to the variables
                 numOfCorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName == answers[i]);
+                numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]) / answers.Count;
             }
 
             if (selectedObjects.Count > answers.Count)

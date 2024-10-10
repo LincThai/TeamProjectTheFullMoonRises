@@ -24,6 +24,9 @@ public class Selectable : MonoBehaviour
     [SerializeField] public float outlineWidth = 5;
     [SerializeField] bool isFirstLv = false;
 
+    private string[] sounds = new string[] { "InteractA", "InteractB", "InteractC" };
+    private int index;
+
     private void Awake()
     {
         // assign the game object
@@ -46,6 +49,10 @@ public class Selectable : MonoBehaviour
                 answerCheck.AddItem(this.gameObject);
                 // set to true
                 hasInteracted = true;
+                // play random interaction sound effect
+                index = Random.Range(0, 3);
+                Debug.Log(sounds[index]);
+                AudioManager.Instance.Play(sounds[index]);
                 // call outline function and pass the selection colour
                 OutlineObject(outlineColourSel);
             }
@@ -56,6 +63,10 @@ public class Selectable : MonoBehaviour
                 answerCheck.RemoveItem(this.gameObject);
                 // set to false
                 hasInteracted = false;
+                // play random interaction sound effect
+                index = Random.Range(0, 3);
+                Debug.Log(sounds[index]);
+                AudioManager.Instance.Play(sounds[index]);
             }
         }
     }

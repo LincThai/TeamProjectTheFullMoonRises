@@ -71,6 +71,7 @@ public class PlayerController : MonoBehaviour
             source.Play();
             yield return new WaitForSeconds(0.5f);
         }
+        source.Stop();
         playingFootsteps = false;
     }
 }
