@@ -304,7 +304,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: microwave
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4780080750342702079, guid: ab76f5151a6983e408c268dc15b3f5c6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

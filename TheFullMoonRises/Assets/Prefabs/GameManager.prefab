@@ -44,7 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e699540c826b54c4b80e36bf00d1123b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerCheck: {fileID: 0}
   numOfIncorrect: 0
   numOfCorrect: 0
   willPunish: 0
+  maxCorrect: 12
+  totalCorrect: 0
+  maxIncorrect: 5
+  totalIncorrect: 0
+  hasLost: 0

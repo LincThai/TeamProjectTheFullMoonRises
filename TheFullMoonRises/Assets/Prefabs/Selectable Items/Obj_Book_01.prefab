@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c273e5dd370d9f349ac314932d49beec, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.174
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c273e5dd370d9f349ac314932d49beec, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c273e5dd370d9f349ac314932d49beec, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9985ec43e6809534dbe638307bba4f89, type: 2}
     - target: {fileID: 919132149155446097, guid: c273e5dd370d9f349ac314932d49beec, type: 3}
       propertyPath: m_Name
       value: Obj_Book_01
@@ -107,6 +111,7 @@ MonoBehaviour:
   bedObject: {fileID: 0}
   answerCheck: {fileID: 0}
   outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
-  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourHov: {r: 0.89411765, g: 0.85490197, b: 0.827451, a: 1}
   outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 5
+  isFirstLv: 0

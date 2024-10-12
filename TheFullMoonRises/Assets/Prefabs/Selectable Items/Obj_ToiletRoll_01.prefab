@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.008233547
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,27 +18,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.036908507
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.70710325
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.7071034
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.0022108166
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0022108168
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -89.98
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -46,8 +46,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.358
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27dc55732aa3c8143aabe422e3c857b1, type: 2}
     - target: {fileID: 919132149155446097, guid: 373adcacbb729f24f8c6a5428d4f68a0, type: 3}
       propertyPath: m_Name
       value: Obj_ToiletRoll_01
@@ -107,6 +111,7 @@ MonoBehaviour:
   bedObject: {fileID: 0}
   answerCheck: {fileID: 0}
   outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
-  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourHov: {r: 0.89411765, g: 0.85490197, b: 0.827451, a: 1}
   outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 5
+  isFirstLv: 0
