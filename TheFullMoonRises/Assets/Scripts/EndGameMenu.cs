@@ -8,7 +8,8 @@ using TMPro;
 public class EndGameMenu : MonoBehaviour
 {
     // set variables
-    public TMP_Text endGameText;
+    public Image goodEnd;
+    public Image badEnd;
 
     private void Start()
     {
@@ -32,12 +33,14 @@ public class EndGameMenu : MonoBehaviour
     {
         if (GameManager.Instance.hasLost == true)
         {
-            endGameText.text = "You Win";
+            goodEnd.enabled = false;
+            badEnd.enabled = true;
         }
 
         if (GameManager.Instance.hasLost == false)
         {
-            endGameText.text = "You Lose";
+            goodEnd.enabled = true;
+            badEnd.enabled = false;
         }
     }
 }
