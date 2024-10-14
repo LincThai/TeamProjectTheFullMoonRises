@@ -97,8 +97,14 @@ public class BedInteraction : MonoBehaviour
         // check if there is an Outline component
         if (this.gameObject.GetComponent<Outline>() != null)
         {
+            // assign it to a variable
+            Outline outline = this.gameObject.GetComponent<Outline>();
             // enable the outline component
-            this.gameObject.GetComponent<Outline>().enabled = true;
+            outline.enabled = true;
+            // assign outline colour
+            outline.OutlineColor = color;
+            // assign outline width
+            outline.OutlineWidth = outlineWidth;
         }
         else
         {

@@ -19,7 +19,6 @@ public class Selectable : MonoBehaviour
     [Header("Outline")]
     [SerializeField] public Color outlineColourSel = Color.green;
     [SerializeField] public Color outlineColourHov = Color.white;
-    [SerializeField] public Color outlineColourDe = Color.red;
     [SerializeField] public float outlineWidth = 5;
     [SerializeField] bool isFirstLv = false;
 
@@ -82,11 +81,6 @@ public class Selectable : MonoBehaviour
                 // call outline function and pass the hover colour
                 OutlineObject(outlineColourHov);
             }
-            else 
-            {
-                // // call outline function and pass the deselection colour
-                OutlineObject(outlineColourDe);
-            }
         }
     }
 
@@ -109,8 +103,14 @@ public class Selectable : MonoBehaviour
         // check if there is an Outline component
         if (this.gameObject.GetComponent<Outline>() != null)
         {
+            // assign it to a variable
+            Outline outline = this.gameObject.GetComponent<Outline>();
             // enable the outline component
-            this.gameObject.GetComponent<Outline>().enabled = true;
+            outline.enabled = true;
+            // assign outline colour
+            outline.OutlineColor = color;
+            // assign outline width
+            outline.OutlineWidth = outlineWidth;
         }
         else
         {
