@@ -12,9 +12,8 @@ public class Selectable : MonoBehaviour
     [SerializeField] public string objectName;
 
     // reference to answercheck script
-    [Header("References")]
-    [SerializeField] public GameObject bedObject;
-    public AnswerCheck answerCheck;
+    private GameObject bedObject;
+    private AnswerCheck answerCheck;
 
     // variables for outline
     [Header("Outline")]

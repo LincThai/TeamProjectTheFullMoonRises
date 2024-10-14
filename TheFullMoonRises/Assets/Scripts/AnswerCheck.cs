@@ -39,10 +39,6 @@ public class AnswerCheck : MonoBehaviour
                 numOfIncorrect += selectedObjects.Count(x => x.GetComponent<Selectable>().objectName != answers[i]) / answers.Count;
             }
 
-            if (selectedObjects.Count > answers.Count)
-            {
-                numOfIncorrect = selectedObjects.Count - answers.Count;
-            }
 
             Debug.Log("Correct: " + numOfCorrect + " Incorrect: " + numOfIncorrect);
             // Send values to game Manager
