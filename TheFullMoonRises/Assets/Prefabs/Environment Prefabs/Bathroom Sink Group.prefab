@@ -86,7 +86,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 725dcda571fc52840859408ac69c9245, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6992622cfe7ecae41bac5c77003c4de4, type: 2}
+      objectReference: {fileID: 2100000, guid: 22239ba4f66128d46b0d9881fd67485b, type: 2}
     - target: {fileID: 919132149155446097, guid: 725dcda571fc52840859408ac69c9245, type: 3}
       propertyPath: m_Name
       value: Obj_BathroomSink_01
@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cd0d692c955135947b72bdf527d28c13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 091e1ca0a2450a248aa9e83b9bc491bd, type: 2}
     - target: {fileID: 919132149155446097, guid: cd0d692c955135947b72bdf527d28c13, type: 3}
       propertyPath: m_Name
       value: Obj_BathroomSinkHandle_02
@@ -240,6 +244,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cd0d692c955135947b72bdf527d28c13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 091e1ca0a2450a248aa9e83b9bc491bd, type: 2}
     - target: {fileID: 919132149155446097, guid: cd0d692c955135947b72bdf527d28c13, type: 3}
       propertyPath: m_Name
       value: Obj_BathroomSinkHandle_01
@@ -302,6 +310,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cd0d692c955135947b72bdf527d28c13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 091e1ca0a2450a248aa9e83b9bc491bd, type: 2}
     - target: {fileID: 919132149155446097, guid: cd0d692c955135947b72bdf527d28c13, type: 3}
       propertyPath: m_Name
       value: Obj_BathroomSinkHandle_03
