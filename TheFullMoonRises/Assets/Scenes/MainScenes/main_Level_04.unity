@@ -1018,10 +1018,8 @@ MonoBehaviour:
   hasInteracted: 0
   interactiveDistance: 10
   objectName: WolfTooth
-  bedObject: {fileID: 0}
-  answerCheck: {fileID: 0}
   outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
-  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourHov: {r: 0.89411765, g: 0.85490197, b: 0.827451, a: 1}
   outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 5
   isFirstLv: 0
@@ -1960,10 +1958,8 @@ MonoBehaviour:
   hasInteracted: 0
   interactiveDistance: 10
   objectName: BrokenHand
-  bedObject: {fileID: 0}
-  answerCheck: {fileID: 0}
   outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
-  outlineColourHov: {r: 0, g: 0, b: 1, a: 1}
+  outlineColourHov: {r: 0.89411765, g: 0.85490197, b: 0.827451, a: 1}
   outlineColourDe: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 5
   isFirstLv: 0
@@ -5020,6 +5016,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5249,6 +5257,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5336,6 +5356,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5470,6 +5502,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3474096143576522883}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 2ebb8e446d3d58548910ca708b9dd525, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6992622cfe7ecae41bac5c77003c4de4, type: 2}
     - target: {fileID: -8679921383154817045, guid: c055e96717bd48146bfca3c63d9ca894, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.147
@@ -5510,10 +5546,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 2ebb8e446d3d58548910ca708b9dd525, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6992622cfe7ecae41bac5c77003c4de4, type: 2}
     - target: {fileID: 919132149155446097, guid: c055e96717bd48146bfca3c63d9ca894, type: 3}
       propertyPath: m_Name
       value: slipper
@@ -5677,6 +5709,18 @@ PrefabInstance:
     - target: {fileID: 2542670901920188499, guid: c71faab355ff599449e3a22264496bb3, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542670901920188499, guid: c71faab355ff599449e3a22264496bb3, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542670901920188499, guid: c71faab355ff599449e3a22264496bb3, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542670901920188499, guid: c71faab355ff599449e3a22264496bb3, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 7297032884481321407, guid: c71faab355ff599449e3a22264496bb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5918,6 +5962,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6001,6 +6057,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6196,6 +6264,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3474096143576522883}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 1b1a4c2b2d9e9d142aca825369b1d28a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d0b5520b18f22b344be7aaf658d4c223, type: 2}
     - target: {fileID: -8679921383154817045, guid: bc575f98b383cd54380ab63472dbd25c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.766
@@ -6236,10 +6308,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.405
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 1b1a4c2b2d9e9d142aca825369b1d28a, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d0b5520b18f22b344be7aaf658d4c223, type: 2}
     - target: {fileID: 919132149155446097, guid: bc575f98b383cd54380ab63472dbd25c, type: 3}
       propertyPath: m_Name
       value: shoes
@@ -6265,6 +6333,18 @@ PrefabInstance:
     - target: {fileID: 5382131096470309220, guid: c05c902c61a08f740bbd460f307777b8, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5382131096470309220, guid: c05c902c61a08f740bbd460f307777b8, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 5382131096470309220, guid: c05c902c61a08f740bbd460f307777b8, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 5382131096470309220, guid: c05c902c61a08f740bbd460f307777b8, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 5475831472681812611, guid: c05c902c61a08f740bbd460f307777b8, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6467,6 +6547,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6585,6 +6677,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6606,6 +6710,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6700,6 +6816,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 5574790838854176205, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6769,6 +6897,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6840,6 +6980,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3262927896282185992, guid: e0366f3ba66b7f744bf3cf805d711cd0, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262927896282185992, guid: e0366f3ba66b7f744bf3cf805d711cd0, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262927896282185992, guid: e0366f3ba66b7f744bf3cf805d711cd0, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 5940340666480880842, guid: e0366f3ba66b7f744bf3cf805d711cd0, type: 3}
       propertyPath: m_Name
       value: Obj_Razor_01
@@ -6905,6 +7057,18 @@ PrefabInstance:
     - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 8019996557420706198, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7004,6 +7168,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3474096143576522883}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 1b1a4c2b2d9e9d142aca825369b1d28a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d0b5520b18f22b344be7aaf658d4c223, type: 2}
     - target: {fileID: -8679921383154817045, guid: bc575f98b383cd54380ab63472dbd25c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.2202806
@@ -7044,10 +7212,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 11.264
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 1b1a4c2b2d9e9d142aca825369b1d28a, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d0b5520b18f22b344be7aaf658d4c223, type: 2}
     - target: {fileID: 919132149155446097, guid: bc575f98b383cd54380ab63472dbd25c, type: 3}
       propertyPath: m_Name
       value: shoes (1)
@@ -7245,6 +7409,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7345,6 +7521,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7596,6 +7784,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9036478628124009419, guid: 2b989f3024ace384999eb6d481f7345a, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036478628124009419, guid: 2b989f3024ace384999eb6d481f7345a, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036478628124009419, guid: 2b989f3024ace384999eb6d481f7345a, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7683,6 +7883,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7832,6 +8044,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7901,6 +8125,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8020,6 +8256,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8057,6 +8305,18 @@ PrefabInstance:
     - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 6939579922524391398, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8127,6 +8387,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8264,6 +8536,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3080580025315096431, guid: 5452f56da03d0864682487c12e298d52, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080580025315096431, guid: 5452f56da03d0864682487c12e298d52, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3080580025315096431, guid: 5452f56da03d0864682487c12e298d52, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8371,6 +8655,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3411765339007845307, guid: 9a0055bb000e5d5448d9e8816d880f17, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411765339007845307, guid: 9a0055bb000e5d5448d9e8816d880f17, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411765339007845307, guid: 9a0055bb000e5d5448d9e8816d880f17, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 3745447311382261694, guid: 9a0055bb000e5d5448d9e8816d880f17, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3091261
@@ -8474,6 +8770,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4031603649030836481}
     m_Modifications:
+    - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247114220389392117, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 8019996557420706198, guid: 8880d2f5325f3fc4ea4c7097f5033383, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8543,6 +8851,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8680,6 +9000,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8811,6 +9143,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9111,6 +9455,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1701760374620852784, guid: aa67b6021b4530a438648eaf30920305, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701760374620852784, guid: aa67b6021b4530a438648eaf30920305, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701760374620852784, guid: aa67b6021b4530a438648eaf30920305, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 3425130340663621829, guid: aa67b6021b4530a438648eaf30920305, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9216,6 +9572,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9335,6 +9703,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9356,6 +9736,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9475,6 +9867,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9496,6 +9900,18 @@ PrefabInstance:
     - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 5574790838854176205, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9582,6 +9998,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9652,6 +10080,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9721,6 +10161,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9959,6 +10411,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10328,6 +10792,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -10397,6 +10873,18 @@ PrefabInstance:
     - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 6939579922524391398, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10516,6 +11004,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10599,6 +11099,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10801,6 +11313,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11152,6 +11676,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11221,6 +11757,18 @@ PrefabInstance:
     - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 6939579922524391398, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11376,6 +11924,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11445,6 +12005,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11568,6 +12140,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1534497115972214472, guid: a4dad7e6e11d8394e88605e093459b00, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534497115972214472, guid: a4dad7e6e11d8394e88605e093459b00, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534497115972214472, guid: a4dad7e6e11d8394e88605e093459b00, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 2248757749775962651, guid: a4dad7e6e11d8394e88605e093459b00, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11593,6 +12177,18 @@ PrefabInstance:
     - target: {fileID: 639047247262606001, guid: a22b814e32b595843a5c48a1840920d5, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 639047247262606001, guid: a22b814e32b595843a5c48a1840920d5, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 639047247262606001, guid: a22b814e32b595843a5c48a1840920d5, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 639047247262606001, guid: a22b814e32b595843a5c48a1840920d5, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 8166851586352718498, guid: a22b814e32b595843a5c48a1840920d5, type: 3}
       propertyPath: m_Name
@@ -11659,6 +12255,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11796,6 +12404,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11889,6 +12509,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11958,6 +12590,18 @@ PrefabInstance:
     - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 6939579922524391398, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12173,6 +12817,18 @@ PrefabInstance:
     - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12787,6 +13443,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8324598198744110491, guid: 5a4c1bf6082bbdb459de2eb78cdfb7e1, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324598198744110491, guid: 5a4c1bf6082bbdb459de2eb78cdfb7e1, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324598198744110491, guid: 5a4c1bf6082bbdb459de2eb78cdfb7e1, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12874,6 +13542,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12993,6 +13673,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13081,6 +13773,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13168,6 +13872,18 @@ PrefabInstance:
     - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 5574790838854176205, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13357,6 +14073,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13552,6 +14280,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4031603649030836481}
     m_Modifications:
+    - target: {fileID: 3770654832036402386, guid: d9bc0d966d3dd754a9adf4404039f3e7, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3770654832036402386, guid: d9bc0d966d3dd754a9adf4404039f3e7, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3770654832036402386, guid: d9bc0d966d3dd754a9adf4404039f3e7, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 7335597136370419715, guid: d9bc0d966d3dd754a9adf4404039f3e7, type: 3}
       propertyPath: m_Name
       value: Obj_BathroomSinkTap_01
@@ -13719,6 +14459,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 5574790838854176205, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13788,6 +14540,18 @@ PrefabInstance:
     - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 6939579922524391398, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13859,6 +14623,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13928,6 +14704,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14138,6 +14926,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131889431486492575, guid: 1c364e477b73cc5469304ad0755c1f99, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14159,6 +14959,18 @@ PrefabInstance:
     - target: {fileID: 2266415091442490252, guid: 54828a3fe32a8f6449eb231a42dbd6d8, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266415091442490252, guid: 54828a3fe32a8f6449eb231a42dbd6d8, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266415091442490252, guid: 54828a3fe32a8f6449eb231a42dbd6d8, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266415091442490252, guid: 54828a3fe32a8f6449eb231a42dbd6d8, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 8204915709475875721, guid: 54828a3fe32a8f6449eb231a42dbd6d8, type: 3}
       propertyPath: m_Name
@@ -14225,6 +15037,18 @@ PrefabInstance:
     - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 992500966339841268, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 5574790838854176205, guid: 7451637a4fe82a844b89f31053b293cb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14296,6 +15120,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -14365,6 +15201,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14591,6 +15439,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3665303080743950855, guid: 314a1a60081d02d45841730570a3d856, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665303080743950855, guid: 314a1a60081d02d45841730570a3d856, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665303080743950855, guid: 314a1a60081d02d45841730570a3d856, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14612,6 +15472,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14824,6 +15696,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15263,6 +16147,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15332,6 +16228,18 @@ PrefabInstance:
     - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538850677900254027, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 6939579922524391398, guid: 7a43a7c248c0c68418a693032234e324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15403,6 +16311,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15472,6 +16392,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15591,6 +16523,18 @@ PrefabInstance:
       propertyPath: isFirstLv
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9036478628124009419, guid: 2b989f3024ace384999eb6d481f7345a, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036478628124009419, guid: 2b989f3024ace384999eb6d481f7345a, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036478628124009419, guid: 2b989f3024ace384999eb6d481f7345a, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15612,6 +16556,18 @@ PrefabInstance:
     - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345800841817252838, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 4624881981503543715, guid: 8862097525518264ab5c0d97cf834aa6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15745,6 +16701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3474096143576522883}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 2ebb8e446d3d58548910ca708b9dd525, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6992622cfe7ecae41bac5c77003c4de4, type: 2}
     - target: {fileID: -8679921383154817045, guid: c055e96717bd48146bfca3c63d9ca894, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.251389
@@ -15785,10 +16745,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.054
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 2ebb8e446d3d58548910ca708b9dd525, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6992622cfe7ecae41bac5c77003c4de4, type: 2}
     - target: {fileID: 919132149155446097, guid: c055e96717bd48146bfca3c63d9ca894, type: 3}
       propertyPath: m_Name
       value: slipper (1)
@@ -15947,6 +16903,18 @@ PrefabInstance:
     - target: {fileID: 598822536006866711, guid: 83170573b9916744f9bc76a6c88d2d9b, type: 3}
       propertyPath: isFirstLv
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 598822536006866711, guid: 83170573b9916744f9bc76a6c88d2d9b, type: 3}
+      propertyPath: outlineColourHov.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 598822536006866711, guid: 83170573b9916744f9bc76a6c88d2d9b, type: 3}
+      propertyPath: outlineColourHov.g
+      value: 0.85490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 598822536006866711, guid: 83170573b9916744f9bc76a6c88d2d9b, type: 3}
+      propertyPath: outlineColourHov.r
+      value: 0.89411765
       objectReference: {fileID: 0}
     - target: {fileID: 2387401447699782365, guid: 83170573b9916744f9bc76a6c88d2d9b, type: 3}
       propertyPath: m_LocalPosition.x
