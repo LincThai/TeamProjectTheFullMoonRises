@@ -50,8 +50,6 @@ public class GameManager : MonoBehaviour
 
     public void CheckScore()
     {
-        int min = maxCorrect / 2;
-
         // checks if nothing is set incorrectly
         if (totalCorrect > maxCorrect)
         {
@@ -63,7 +61,6 @@ public class GameManager : MonoBehaviour
         if (totalIncorrect > maxIncorrect) { hasLost = true; }
 
         // Win Condtion
-        if (min < totalCorrect && totalCorrect <= maxCorrect) { hasLost = false; }
-
+        if (totalCorrect >= 9) { hasLost = false; }
     }
 }

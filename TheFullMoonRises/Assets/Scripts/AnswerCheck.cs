@@ -44,6 +44,7 @@ public class AnswerCheck : MonoBehaviour
             {
                 numOfIncorrect = selectedObjects.Count - numOfCorrect;
             }
+            numOfIncorrect += answers.Count - numOfCorrect;
 
             Debug.Log("Correct: " + numOfCorrect + " Incorrect: " + numOfIncorrect);
             // Send values to game Manager
