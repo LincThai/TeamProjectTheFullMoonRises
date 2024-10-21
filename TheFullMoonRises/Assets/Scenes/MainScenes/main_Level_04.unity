@@ -1107,7 +1107,7 @@ Transform:
   m_GameObject: {fileID: 545160170}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.443296, y: -3.4886677, z: -6.292164}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1202,22 +1202,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1591588585852389056, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1591588585852389056, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1591588585852389056, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2170242075971614546, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2542511189158725482, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1298,18 +1282,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2900427742619799317, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2900427742619799317, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230285523360409620, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3377528946973802294, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: m_Name
       value: UI_GameCanvas_Prefab
@@ -1319,21 +1291,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 789278164439912717}
     - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: isFirstLv
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5224446728371247019, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
       propertyPath: answerCheck
       value: 
       objectReference: {fileID: 789278164439912717}
-    - target: {fileID: 7348078898318327998, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9065861760480661052, guid: 3ed8e44124453cb4d80dbae3cf9759ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17041,7 +17001,7 @@ MonoBehaviour:
   sceneIndex: 0
   isInteractable: 1
   interactiveDistance: 10
-  outlineColour: {r: 0, g: 0, b: 1, a: 1}
+  outlineColour: {r: 0.89411765, g: 0.85490197, b: 0.827451, a: 1}
   outlineWidth: 5
   isFirstLv: 0
   resultsMenu: {fileID: 611620160}
