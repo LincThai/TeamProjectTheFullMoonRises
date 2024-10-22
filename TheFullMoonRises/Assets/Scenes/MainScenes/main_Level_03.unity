@@ -2285,27 +2285,27 @@ PrefabInstance:
       objectReference: {fileID: 206402745}
     - target: {fileID: 3397212498340473397, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Size.x
-      value: 4.7936077
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3397212498340473397, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Size.y
-      value: 2.4875884
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3397212498340473397, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Size.z
-      value: 1.5936613
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3397212498340473397, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Center.x
-      value: 1.3134979
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3397212498340473397, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Center.y
-      value: 0.7437943
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3397212498340473397, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Center.z
-      value: -2.0605166
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7599713560374953189, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_Name
@@ -2317,15 +2317,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8517268688189596662, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.89
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517268688189596662, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.554
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8517268688189596662, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.66
+      value: -3.25
       objectReference: {fileID: 0}
     - target: {fileID: 8517268688189596662, guid: b86c30c6f96b3f746bc0d1c3475bd78f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5042,7 +5042,7 @@ MonoBehaviour:
   hasInteracted: 0
   interactiveDistance: 10
   objectName: Blood
-  outlineColourSel: {r: 0, g: 1, b: 0, a: 1}
+  outlineColourSel: {r: 1, g: 0.70980394, b: 0.5372549, a: 1}
   outlineColourHov: {r: 1, g: 1, b: 1, a: 1}
   outlineWidth: 5
   isFirstLv: 0
